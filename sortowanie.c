@@ -2,11 +2,15 @@
 #include <time.h>
 #include <stdlib.h>
 
-int n, size;
+int n;
+int size;
 int tab[50];
 
 void bubblesort(int size) {
-	int i, k, temp;
+	int i;
+	int k;
+	int temp;
+	
 	for (i = 0; i<size-1; i++) {
 		for (k = 0; k<size - 1 - i; k++) {
 			if (tab[k] > tab[k+1]) {
