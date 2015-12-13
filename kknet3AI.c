@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
- 
+// komentarz 
 int b[3][3]; /* board. 0: blank; -1: computer; 1: human */
  
 int check_winner()
