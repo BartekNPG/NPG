@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctime>
-
+//usuniety plik na galezi z komentarzem
 char tab[3][3] = {
                  {'1','2','3'},
                  {'4','5','6'},
