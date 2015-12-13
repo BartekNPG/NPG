@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 #include <stdio.h>
 //#include <time.h>
+=======
+#include <stdio12.h>
+#include <time.h>
+>>>>>>> a42b5df890f9f9c7533d4763086f89803d2e01b0
 #include <stdlib.h>
 
 int n, size;
