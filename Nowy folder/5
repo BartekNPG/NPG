@@ -1,0 +1,1 @@
+sed -n -e '4p;7p;10p;13p' /etc/passwd

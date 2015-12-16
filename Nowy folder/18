@@ -1,0 +1,1 @@
+sed -e '=' /etc/mime.types  | sed 'N;s/\n/ /' | sed -n -e '/\([^0-9]*\) video/p'

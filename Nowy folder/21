@@ -1,0 +1,1 @@
+sed = plik | sed -e 'N;s/\n/ /' 
