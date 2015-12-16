@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled 
+7355c64521b8c8b6d6f9d453fe0f00fa9e0e7e25 refs/remotes/origin/Feature/ZmianaXY
+76ef9190226475faf22102445298a412e4d06750 refs/remotes/origin/master
+c2a44a7c4be22f7492e9d63a0484e6f9b453bedf refs/tags/v1.0-web
+47ffebb46606c0ce20bdfe5e001827790ab86645 refs/tags/v1.2-TortoiseGit-readme
+^7c58378a5a130eae36c3d8db1523b0eada9b7394

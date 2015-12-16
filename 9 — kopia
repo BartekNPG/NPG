@@ -1,0 +1,1 @@
+sed -n -e '/lo/!p' /etc/networks

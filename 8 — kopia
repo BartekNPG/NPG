@@ -1,0 +1,1 @@
+sed -n -e '/^[qz]/p' /etc/passwd

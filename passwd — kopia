@@ -1,0 +1,1926 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/bin/sh
+bin:x:2:2:bin:/bin:/bin/sh
+sys:x:3:3:sys:/dev:/bin/sh
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/bin/sh
+man:x:6:12:man:/var/cache/man:/bin/sh
+lp:x:7:7:lp:/var/spool/lpd:/bin/sh
+mail:x:8:8:mail:/var/mail:/bin/sh
+news:x:9:9:news:/var/spool/news:/bin/sh
+uucp:x:10:10:uucp:/var/spool/uucp:/bin/sh
+proxy:x:13:13:proxy:/bin:/bin/sh
+www-data:x:33:33:www-data:/var/www:/bin/sh
+backup:x:34:34:backup:/var/backups:/bin/sh
+list:x:38:38:Mailing List Manager:/var/list:/bin/sh
+irc:x:39:39:ircd:/var/run/ircd:/bin/sh
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/bin/sh
+nobody:x:65534:65534:nobody:/nonexistent:/bin/sh
+libuuid:x:100:101::/var/lib/libuuid:/bin/sh
+syslog:x:101:103::/home/syslog:/bin/false
+messagebus:x:102:105::/var/run/dbus:/bin/false
+whoopsie:x:103:106::/nonexistent:/bin/false
+postfix:x:104:110::/var/spool/postfix:/bin/false
+mysql:x:105:112:MySQL Server,,,:/nonexistent:/bin/false
+uml-net:x:106:134::/home/uml-net:/bin/false
+landscape:x:107:113::/var/lib/landscape:/bin/false
+sshd:x:108:65534::/var/run/sshd:/usr/sbin/nologin
+postgres:x:109:115:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+colord:x:110:119:colord colour management daemon,,,:/var/lib/colord:/bin/false
+avahi:x:111:121:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/bin/false
+usbmux:x:112:46:usbmux daemon,,,:/home/usbmux:/bin/false
+dhcpd:x:113:122::/var/run:/bin/false
+nbd:x:114:123::/etc/nbd-server:/bin/false
+pulse:x:115:124:PulseAudio daemon,,,:/var/run/pulse:/bin/false
+rtkit:x:116:126:RealtimeKit,,,:/proc:/bin/false
+tftp:x:117:127:tftp daemon,,,:/var/lib/tftpboot:/bin/false
+lightdm:x:118:130:Light Display Manager:/var/lib/lightdm:/bin/false
+avahi-autoipd:x:119:132:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/bin/false
+hplip:x:120:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+kernoops:x:121:65534:Kernel Oops Tracking Daemon,,,:/:/bin/false
+saned:x:122:133::/home/saned:/bin/false
+speech-dispatcher:x:123:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/sh
+studentsqp:x:899:899:quota prototype,,,:/nonexistent:/bin/false
+t01$:x:900:200:t01$ machine account,,,:/nonexistent:/bin/false
+t02$:x:901:200:t02$ machine account,,,:/nonexistent:/bin/false
+t03$:x:902:200:t03$ machine account,,,:/nonexistent:/bin/false
+t04$:x:903:200:t04$ machine account,,,:/nonexistent:/bin/false
+t05$:x:904:200:t05$ machine account,,,:/nonexistent:/bin/false
+t06$:x:905:200:t06$ machine account,,,:/nonexistent:/bin/false
+t07$:x:906:200:t07$ machine account,,,:/nonexistent:/bin/false
+t08$:x:907:200:t08$ machine account,,,:/nonexistent:/bin/false
+t09$:x:908:200:t09$ machine account,,,:/nonexistent:/bin/false
+t10$:x:909:200:t10$ machine account,,,:/nonexistent:/bin/false
+t11$:x:910:200:t11$ machine account,,,:/nonexistent:/bin/false
+t12$:x:911:200:t12$ machine account,,,:/nonexistent:/bin/false
+t13$:x:912:200:t13$ machine account,,,:/nonexistent:/bin/false
+t14$:x:913:200:t14$ machine account,,,:/nonexistent:/bin/false
+t15$:x:914:200:t15$ machine account,,,:/nonexistent:/bin/false
+t16$:x:915:200:t16$ machine account,,,:/nonexistent:/bin/false
+t17$:x:916:200:t17$ machine account,,,:/nonexistent:/bin/false
+t18$:x:917:200:t18$ machine account,,,:/nonexistent:/bin/false
+t19$:x:918:200:t19$ machine account,,,:/nonexistent:/bin/false
+t20$:x:919:200:t20$ machine account,,,:/nonexistent:/bin/false
+t21$:x:920:200:t21$ machine account,,,:/nonexistent:/bin/false
+t22$:x:921:200:t22$ machine account,,,:/nonexistent:/bin/false
+t23$:x:922:200:t23$ machine account,,,:/nonexistent:/bin/false
+t24$:x:923:200:t24$ machine account,,,:/nonexistent:/bin/false
+t25$:x:924:200:t25$ machine account,,,:/nonexistent:/bin/false
+t26$:x:925:200:t26$ machine account,,,:/nonexistent:/bin/false
+t27$:x:926:200:t27$ machine account,,,:/nonexistent:/bin/false
+t28$:x:927:200:t28$ machine account,,,:/nonexistent:/bin/false
+t29$:x:928:200:t29$ machine account,,,:/nonexistent:/bin/false
+darek:x:1000:50:Dariusz Dej,,,:/home/staff/darek:/bin/bash
+kluza:x:2001:50:Krzysztof Kluza,C2-319,50-64,:/home/staff/kluza:/bin/bash
+wta:x:2002:50:Weronika Adrian,C2-319,50-64,:/home/staff/wta:/bin/bash
+miller:x:2003:50:Janusz Miller,C2-306,38-03,:/home/staff/miller:/bin/bash
+kk:x:2004:50:Krzysztof Kaczor,C2-318,39-41,:/home/staff/kk:/bin/bash
+sbobek:x:2005:50:Szymon Bobek,C2-318,39-41,:/home/staff/sbobek:/bin/bash
+mka:x:2006:50:Marek Kapłański,C3-005,28-58,:/home/staff/mka:/bin/bash
+gjn:x:2007:50:Grzegorz Nalepa,C2-320,38-56,:/home/staff/gjn:/bin/bash
+wszmuc:x:2008:50:Wojciech Szmuc,C2-318,34-05,:/home/staff/wszmuc:/bin/bash
+wojnicki:x:2009:50:Igor Wojnicki,C2-424,34-07,:/home/staff/wojnicki:/bin/bash
+ptm:x:2010:50:Piotr Matyasik,C2-323,34-05,:/home/staff/ptm:/bin/bash
+kkulak:x:2011:50:Konrad Kułakowski,C2-427,34-08,:/home/staff/kkulak:/bin/bash
+marcin:x:2012:50:Marcin Szpyrka,C2-321,51-94,:/home/staff/marcin:/bin/bash
+sebi:x:2013:50:Sebastian Ernst,C2-424,51-95,:/home/staff/sebi:/bin/bash
+matb:x:2014:50:Mateusz Baran,intern,#74,:/home/staff/matb:/bin/bash
+mwypych:x:2015:50:Michał Wypych,C2-318,39-41,:/home/staff/mwypych:/bin/bash
+mrowka:x:2016:50:Rafał Mrówka,C2-318,34-05,:/home/staff/mrowka:/bin/bash
+skrzynia:x:2017:50:Paweł Skrzyński,C2-403,52-17,:/home/staff/skrzynia:/bin/bash
+rklimek:x:2018:50:Radosław Klimek,C2-404,39-45,:/home/staff/rklimek:/bin/bash
+porzycki:x:2019:50:Jakub Porzycki,C2-428,52-18,:/home/staff/porzycki:/bin/bash
+pszwed:x:2020:50:Piotr Szwed,C2-403,52-17,:/home/staff/pszwed:/bin/bash
+jamroz:x:2021:50:Dariusz Jamróz,C2-206,,:/home/staff/jamroz:/bin/bash
+krzykutt:x:2022:50:Krzysztof Kutt,intern,228,:/home/staff/krzykutt:/bin/bash
+mateslaz:x:2023:50:Mateusz Slazynski,intern,228,:/home/staff/mateslaz:/bin/bash
+----------------------------
+testuser:x:5000:5000:Test User,TST,DDe,:/home/students/t/testuser:/bin/tcsh
+----------------------------
+----------------------------
+bartszub:x:5609:5000:Bartlomiej Szuber,PAW,PSk,:/home/students/b/bartszub:/bin/tcsh
+----------------------------
+----------------------------
+lukaros1:x:5610:5000:Lukasz Rosinski,PAW,PSk,:/home/students/l/lukaros1:/bin/tcsh
+----------------------------
+----------------------------
+lechiskr:x:5611:5000:Lech Iskra,PAW,PSk,:/home/students/l/lechiskr:/bin/tcsh
+----------------------------
+----------------------------
+jolawiel:x:5612:5000:Jolanta Wielogorska,PAW,PSk,:/home/students/j/jolawiel:/bin/tcsh
+----------------------------
+----------------------------
+artudobo:x:5613:5000:Artur Dobosiewicz,PAW,PSk,:/home/students/a/artudobo:/bin/tcsh
+----------------------------
+----------------------------
+katabusk:x:5614:5000:Katarzyna Busko,PAW,PSk,:/home/students/k/katabusk:/bin/tcsh
+----------------------------
+----------------------------
+michzubi:x:5615:5000:Michal Zubik,PAW,PSk,:/home/students/m/michzubi:/bin/tcsh
+----------------------------
+----------------------------
+jakuswie:x:5616:5000:Jakub Swierkowski,PAW,PSk,:/home/students/j/jakuswie:/bin/tcsh
+----------------------------
+----------------------------
+tomaszy1:x:5617:5000:Tomasz Szymanski,PAW,PSk,:/home/students/t/tomaszy1:/bin/tcsh
+----------------------------
+----------------------------
+michroza:x:5618:5000:Michal Rozanski,PAW,PSk,:/home/students/m/michroza:/bin/tcsh
+----------------------------
+----------------------------
+grzegrzy:x:5619:5000:Grzegorz Grzywa,PAW,PSk,:/home/students/g/grzegrzy:/bin/tcsh
+----------------------------
+----------------------------
+wojcforn:x:5620:5000:Wojciech Fornal,PAW,PSk,:/home/students/w/wojcforn:/bin/tcsh
+----------------------------
+----------------------------
+malgluch:x:5621:5000:Malgorzata Luchter,PAW,PSk,:/home/students/m/malgluch:/bin/tcsh
+----------------------------
+----------------------------
+kazichlo:x:5622:5000:Kazimierz Chlopek,PAW,PSk,:/home/students/k/kazichlo:/bin/tcsh
+----------------------------
+----------------------------
+grzerydz:x:5623:5000:Grzegorz Rydzewski,PAW,PSk,:/home/students/g/grzerydz:/bin/tcsh
+----------------------------
+----------------------------
+joanmaje:x:5624:5000:Joanna Majewska,PAW,PSk,:/home/students/j/joanmaje:/bin/tcsh
+----------------------------
+----------------------------
+sebakape:x:5625:5000:Sebastian Kapel,PAW,PSk,:/home/students/s/sebakape:/bin/tcsh
+----------------------------
+----------------------------
+krzystel:x:5626:5000:Krzysztof Stelmach,PAW,PSk,:/home/students/k/krzystel:/bin/tcsh
+----------------------------
+----------------------------
+krzyszla:x:5627:5000:Krzysztof Szlachtowski,PAW,PSk,:/home/students/k/krzyszla:/bin/tcsh
+----------------------------
+----------------------------
+tomaadam:x:5001:5000:Tomasz Adamczyk,IS1,JMi,:/home/students/t/tomaadam:/bin/tcsh
+----------------------------
+----------------------------
+patradam:x:5002:5000:Patryk Adamkiewicz,IS1,JMi,:/home/students/p/patradam:/bin/tcsh
+----------------------------
+----------------------------
+konrbacz:x:5003:5000:Konrad Baczynski,IS1,JMi,:/home/students/k/konrbacz:/bin/tcsh
+----------------------------
+----------------------------
+krzybani:x:5004:5000:Krzysztof Bania,IS1,JMi,:/home/students/k/krzybani:/bin/tcsh
+----------------------------
+----------------------------
+zofibart:x:5005:5000:Zofia Bartyzel,IS1,JMi,:/home/students/z/zofibart:/bin/tcsh
+----------------------------
+----------------------------
+rafabier:x:5006:5000:Rafal Bierowiec,IS1,JMi,:/home/students/r/rafabier:/bin/tcsh
+----------------------------
+----------------------------
+karobisz:x:5007:5000:Karol Bisztyga,IS1,JMi,:/home/students/k/karobisz:/bin/tcsh
+----------------------------
+----------------------------
+arkablas:x:5008:5000:Arkadiusz Blasiak,IS1,JMi,:/home/students/a/arkablas:/bin/tcsh
+----------------------------
+----------------------------
+jaceboru:x:5009:5000:Jacek Boruch,IS1,JMi,:/home/students/j/jaceboru:/bin/tcsh
+----------------------------
+----------------------------
+sebabran:x:5010:5000:Sebastian Brandys,IS1,JMi,:/home/students/s/sebabran:/bin/tcsh
+----------------------------
+----------------------------
+zuzabucz:x:5011:5000:Zuzanna Buczkowska,IS1,JMi,:/home/students/z/zuzabucz:/bin/tcsh
+----------------------------
+----------------------------
+piotbury:x:5012:5000:Piotr Burys,IS1,JMi,:/home/students/p/piotbury:/bin/tcsh
+----------------------------
+----------------------------
+kamichle:x:5013:5000:Kamil Chlebek,IS1,JMi,:/home/students/k/kamichle:/bin/tcsh
+----------------------------
+----------------------------
+arkachmi:x:5014:5000:Arkadiusz Chmiel,IS1,JMi,:/home/students/a/arkachmi:/bin/tcsh
+----------------------------
+----------------------------
+konrchmi:x:5015:5000:Konrad Chmiel,IS1,JMi,:/home/students/k/konrchmi:/bin/tcsh
+----------------------------
+----------------------------
+domicier:x:5016:5000:Dominik Cieraszewski,IS1,JMi,:/home/students/d/domicier:/bin/tcsh
+----------------------------
+----------------------------
+matecurz:x:5017:5000:Mateusz Curzydlo,IS1,JMi,:/home/students/m/matecurz:/bin/tcsh
+----------------------------
+----------------------------
+paweczan:x:5018:5000:Pawel Czanasz,IS1,JMi,:/home/students/p/paweczan:/bin/tcsh
+----------------------------
+----------------------------
+krzyczur:x:5019:5000:Krzysztof Czurylo,IS1,JMi,:/home/students/k/krzyczur:/bin/tcsh
+----------------------------
+----------------------------
+patrdani:x:5020:5000:Patrycja Daniol,IS1,JMi,:/home/students/p/patrdani:/bin/tcsh
+----------------------------
+----------------------------
+kamidawi:x:5021:5000:Kamil Dawidow,IS1,JMi,:/home/students/k/kamidawi:/bin/tcsh
+----------------------------
+----------------------------
+danidlug:x:5022:5000:Daniel Dlugosz,IS1,JMi,:/home/students/d/danidlug:/bin/tcsh
+----------------------------
+----------------------------
+kamidybe:x:5023:5000:Kamil Dybek,IS1,JMi,:/home/students/k/kamidybe:/bin/tcsh
+----------------------------
+----------------------------
+adamdzwo:x:5024:5000:Adam Dzwonnik,IS1,JMi,:/home/students/a/adamdzwo:/bin/tcsh
+----------------------------
+----------------------------
+ewelfija:x:5025:5000:Ewelina Fijalkowska,IS1,JMi,:/home/students/e/ewelfija:/bin/tcsh
+----------------------------
+----------------------------
+jakufrei:x:5026:5000:Jakub Freisler,IS1,JMi,:/home/students/j/jakufrei:/bin/tcsh
+----------------------------
+----------------------------
+artugaik:x:5027:5000:Artur Gaik,IS1,JMi,:/home/students/a/artugaik:/bin/tcsh
+----------------------------
+----------------------------
+damigamo:x:5028:5000:Damian Gamon,IS1,JMi,:/home/students/d/damigamo:/bin/tcsh
+----------------------------
+----------------------------
+michgand:x:5029:5000:Michal Gandor,IS1,JMi,:/home/students/m/michgand:/bin/tcsh
+----------------------------
+----------------------------
+marcghay:x:5030:5000:Marcel Ghayyeda,IS1,JMi,:/home/students/m/marcghay:/bin/tcsh
+----------------------------
+----------------------------
+beatgiel:x:5031:5000:Beata Gielbaga,IS1,JMi,:/home/students/b/beatgiel:/bin/tcsh
+----------------------------
+----------------------------
+michgorg:x:5032:5000:Michal Gorgon,IS1,JMi,:/home/students/m/michgorg:/bin/tcsh
+----------------------------
+----------------------------
+kamigrab:x:5033:5000:Kamil Grabowski,IS1,JMi,:/home/students/k/kamigrab:/bin/tcsh
+----------------------------
+----------------------------
+domigrus:x:5034:5000:Dominik Gruszkowski,IS1,JMi,:/home/students/d/domigrus:/bin/tcsh
+----------------------------
+----------------------------
+arkagugu:x:5035:5000:Arkadiusz Gugula,IS1,JMi,:/home/students/a/arkagugu:/bin/tcsh
+----------------------------
+----------------------------
+michhajd:x:5036:5000:Michal Hajduga,IS1,JMi,:/home/students/m/michhajd:/bin/tcsh
+----------------------------
+----------------------------
+przehapt:x:5037:5000:Przemyslaw Haptas,IS1,JMi,:/home/students/p/przehapt:/bin/tcsh
+----------------------------
+----------------------------
+piotjaro:x:5038:5000:Piotr Jaromin,IS1,JMi,:/home/students/p/piotjaro:/bin/tcsh
+----------------------------
+----------------------------
+marcjedr:x:5039:5000:Marcin Jedrzejczyk,IS1,JMi,:/home/students/m/marcjedr:/bin/tcsh
+----------------------------
+----------------------------
+domijura:x:5040:5000:Dominik Juraszek,IS1,JMi,:/home/students/d/domijura:/bin/tcsh
+----------------------------
+----------------------------
+kamijure:x:5041:5000:Kamil Jurek,IS1,JMi,:/home/students/k/kamijure:/bin/tcsh
+----------------------------
+----------------------------
+patrkarp:x:5042:5000:Patrycja Karpinska,IS1,JMi,:/home/students/p/patrkarp:/bin/tcsh
+----------------------------
+----------------------------
+macikarp:x:5043:5000:Maciej Karpinski,IS1,JMi,:/home/students/m/macikarp:/bin/tcsh
+----------------------------
+----------------------------
+sebakats:x:5044:5000:Sebastian Katszer,IS1,JMi,:/home/students/s/sebakats:/bin/tcsh
+----------------------------
+----------------------------
+alekklin:x:5045:5000:Aleksander Klinkowski,IS1,JMi,:/home/students/a/alekklin:/bin/tcsh
+----------------------------
+----------------------------
+janklos:x:5046:5000:Jan Klos,IS1,JMi,:/home/students/j/janklos:/bin/tcsh
+----------------------------
+----------------------------
+michkolb:x:5047:5000:Michal Kolbusz,IS1,JMi,:/home/students/m/michkolb:/bin/tcsh
+----------------------------
+----------------------------
+volokoro:x:5048:5000:Volodymyr Korostil,IS1,JMi,:/home/students/v/volokoro:/bin/tcsh
+----------------------------
+----------------------------
+katakosi:x:5049:5000:Katarzyna Kosiak,IS1,JMi,:/home/students/k/katakosi:/bin/tcsh
+----------------------------
+----------------------------
+adrikowa:x:5050:5000:Adrian Kowalski,IS1,JMi,:/home/students/a/adrikowa:/bin/tcsh
+----------------------------
+----------------------------
+tomakras:x:5051:5000:Tomasz Krason,IS1,JMi,:/home/students/t/tomakras:/bin/tcsh
+----------------------------
+----------------------------
+matekrze:x:5052:5000:Mateusz Krzeszowiak,IS1,JMi,:/home/students/m/matekrze:/bin/tcsh
+----------------------------
+----------------------------
+jakukuba:x:5053:5000:Jakub Kubala,IS1,JMi,:/home/students/j/jakukuba:/bin/tcsh
+----------------------------
+----------------------------
+kamikuli:x:5054:5000:Kamil Kulig,IS1,JMi,:/home/students/k/kamikuli:/bin/tcsh
+----------------------------
+----------------------------
+piotkupi:x:5055:5000:Piotr Kupilas,IS1,JMi,:/home/students/p/piotkupi:/bin/tcsh
+----------------------------
+----------------------------
+jarokusn:x:5056:5000:Jaroslaw Kusnierz,IS1,JMi,:/home/students/j/jarokusn:/bin/tcsh
+----------------------------
+----------------------------
+radolesn:x:5057:5000:Radoslaw Lesniewski,IS1,JMi,:/home/students/r/radolesn:/bin/tcsh
+----------------------------
+----------------------------
+marelabu:x:5058:5000:Marek Labuz,IS1,JMi,:/home/students/m/marelabu:/bin/tcsh
+----------------------------
+----------------------------
+pawelose:x:5059:5000:Pawel Losek,IS1,JMi,:/home/students/p/pawelose:/bin/tcsh
+----------------------------
+----------------------------
+tomalugo:x:5060:5000:Tomasz Lugowski,IS1,JMi,:/home/students/t/tomalugo:/bin/tcsh
+----------------------------
+----------------------------
+michmajt:x:5061:5000:Michal Majtyka,IS1,JMi,:/home/students/m/michmajt:/bin/tcsh
+----------------------------
+----------------------------
+rafamali:x:5062:5000:Rafal Malin,IS1,JMi,:/home/students/r/rafamali:/bin/tcsh
+----------------------------
+----------------------------
+lukamare:x:5063:5000:Lukasz Marek,IS1,JMi,:/home/students/l/lukamare:/bin/tcsh
+----------------------------
+----------------------------
+rafamart:x:5064:5000:Rafal Martyna,IS1,JMi,:/home/students/r/rafamart:/bin/tcsh
+----------------------------
+----------------------------
+martmini:x:5065:5000:Martyna Miniur,IS1,JMi,:/home/students/m/martmini:/bin/tcsh
+----------------------------
+----------------------------
+piotmisi:x:5066:5000:Piotr Misiak,IS1,JMi,:/home/students/p/piotmisi:/bin/tcsh
+----------------------------
+----------------------------
+tomamisi:x:5067:5000:Tomasz Misiura,IS1,JMi,:/home/students/t/tomamisi:/bin/tcsh
+----------------------------
+----------------------------
+michmozd:x:5068:5000:Michal Mozdzen,IS1,JMi,:/home/students/m/michmozd:/bin/tcsh
+----------------------------
+----------------------------
+lukamroz:x:5069:5000:Lukasz Mroz,IS1,JMi,:/home/students/l/lukamroz:/bin/tcsh
+----------------------------
+----------------------------
+filimutk:x:5070:5000:Filip Mutke,IS1,JMi,:/home/students/f/filimutk:/bin/tcsh
+----------------------------
+----------------------------
+dominizi:x:5071:5000:Dominika Niziolek,IS1,JMi,:/home/students/d/dominizi:/bin/tcsh
+----------------------------
+----------------------------
+szymnowa:x:5072:5000:Szymon Nowak,IS1,JMi,:/home/students/s/szymnowa:/bin/tcsh
+----------------------------
+----------------------------
+edytnowa:x:5073:5000:Edyta Nowakowska,IS1,JMi,:/home/students/e/edytnowa:/bin/tcsh
+----------------------------
+----------------------------
+paweogor:x:5074:5000:Pawel Ogorzaly,IS1,JMi,:/home/students/p/paweogor:/bin/tcsh
+----------------------------
+----------------------------
+grzeopok:x:5075:5000:Grzegorz Opoka,IS1,JMi,:/home/students/g/grzeopok:/bin/tcsh
+----------------------------
+----------------------------
+szympabi:x:5076:5000:Szymon Pabianczyk,IS1,JMi,:/home/students/s/szympabi:/bin/tcsh
+----------------------------
+----------------------------
+joanpaja:x:5077:5000:Joanna Pajak,IS1,JMi,:/home/students/j/joanpaja:/bin/tcsh
+----------------------------
+----------------------------
+krzypetr:x:5078:5000:Krzysztof Petryla,IS1,JMi,:/home/students/k/krzypetr:/bin/tcsh
+----------------------------
+----------------------------
+alekpier:x:5079:5000:Aleksandra Pierzchala,IS1,JMi,:/home/students/a/alekpier:/bin/tcsh
+----------------------------
+----------------------------
+majapiwi:x:5080:5000:Maja Piwinska,IS1,JMi,:/home/students/m/majapiwi:/bin/tcsh
+----------------------------
+----------------------------
+rafaplas:x:5081:5000:Rafal Plaszczyk,IS1,JMi,:/home/students/r/rafaplas:/bin/tcsh
+----------------------------
+----------------------------
+albepodr:x:5082:5000:Albert Podraza,IS1,JMi,:/home/students/a/albepodr:/bin/tcsh
+----------------------------
+----------------------------
+tomaraus:x:5083:5000:Tomasz Raus,IS1,JMi,:/home/students/t/tomaraus:/bin/tcsh
+----------------------------
+----------------------------
+joanrocz:x:5084:5000:Joanna Roczniak,IS1,JMi,:/home/students/j/joanrocz:/bin/tcsh
+----------------------------
+----------------------------
+adriarys:x:5085:5000:Adrianna Rys,IS1,JMi,:/home/students/a/adriarys:/bin/tcsh
+----------------------------
+----------------------------
+matesala:x:5086:5000:Mateusz Salasa,IS1,JMi,:/home/students/m/matesala:/bin/tcsh
+----------------------------
+----------------------------
+pavlsama:x:5087:5000:Pavlo Samarets,IS1,JMi,:/home/students/p/pavlsama:/bin/tcsh
+----------------------------
+----------------------------
+beatselw:x:5088:5000:Beata Selwa,IS1,JMi,:/home/students/b/beatselw:/bin/tcsh
+----------------------------
+----------------------------
+katasewe:x:5089:5000:Katarzyna Seweryn,IS1,JMi,:/home/students/k/katasewe:/bin/tcsh
+----------------------------
+----------------------------
+joanskor:x:5090:5000:Joanna Skorupa,IS1,JMi,:/home/students/j/joanskor:/bin/tcsh
+----------------------------
+----------------------------
+macislaw:x:5091:5000:Maciej Slawik,IS1,JMi,:/home/students/m/macislaw:/bin/tcsh
+----------------------------
+----------------------------
+jakuslow:x:5092:5000:Jakub Slowik,IS1,JMi,:/home/students/j/jakuslow:/bin/tcsh
+----------------------------
+----------------------------
+karosmoc:x:5093:5000:Karol Smoczynski,IS1,JMi,:/home/students/k/karosmoc:/bin/tcsh
+----------------------------
+----------------------------
+piotsobc:x:5094:5000:Piotr Sobczyk,IS1,JMi,:/home/students/p/piotsobc:/bin/tcsh
+----------------------------
+----------------------------
+lukasolt:x:5095:5000:Lukasz Soltys,IS1,JMi,:/home/students/l/lukasolt:/bin/tcsh
+----------------------------
+----------------------------
+paulstoc:x:5096:5000:Paulina Stochel,IS1,JMi,:/home/students/p/paulstoc:/bin/tcsh
+----------------------------
+----------------------------
+jakusyre:x:5097:5000:Jakub Syrek,IS1,JMi,:/home/students/j/jakusyre:/bin/tcsh
+----------------------------
+----------------------------
+jakuszcz:x:5098:5000:Jakub Szczepankiewicz,IS1,JMi,:/home/students/j/jakuszcz:/bin/tcsh
+----------------------------
+----------------------------
+alicszla:x:5099:5000:Alicja Szlachta,IS1,JMi,:/home/students/a/alicszla:/bin/tcsh
+----------------------------
+----------------------------
+filiszuk:x:5100:5000:Filip Szukala,IS1,JMi,:/home/students/f/filiszuk:/bin/tcsh
+----------------------------
+----------------------------
+kamiszyd:x:5101:5000:Kamil Szydlo,IS1,JMi,:/home/students/k/kamiszyd:/bin/tcsh
+----------------------------
+----------------------------
+kamisrod:x:5102:5000:Kamila Sroda,IS1,JMi,:/home/students/k/kamisrod:/bin/tcsh
+----------------------------
+----------------------------
+joanswie:x:5103:5000:Joanna Swietlik,IS1,JMi,:/home/students/j/joanswie:/bin/tcsh
+----------------------------
+----------------------------
+dawitala:x:5104:5000:Dawid Talaga,IS1,JMi,:/home/students/d/dawitala:/bin/tcsh
+----------------------------
+----------------------------
+kamitere:x:5105:5000:Kamila Terenowicz,IS1,JMi,:/home/students/k/kamitere:/bin/tcsh
+----------------------------
+----------------------------
+nikotoka:x:5106:5000:Nikodem Tokarski,IS1,JMi,:/home/students/n/nikotoka:/bin/tcsh
+----------------------------
+----------------------------
+filiturc:x:5107:5000:Filip TurczynowiczSuszycki,IS1,JMi,:/home/students/f/filiturc:/bin/tcsh
+----------------------------
+----------------------------
+danityka:x:5108:5000:Daniel Tyka,IS1,JMi,:/home/students/d/danityka:/bin/tcsh
+----------------------------
+----------------------------
+malgtyle:x:5109:5000:Malgorzata Tylek,IS1,JMi,:/home/students/m/malgtyle:/bin/tcsh
+----------------------------
+----------------------------
+marturba:x:5110:5000:Marta Urbanik,IS1,JMi,:/home/students/m/marturba:/bin/tcsh
+----------------------------
+----------------------------
+krzywacl:x:5111:5000:Krzysztof Waclawik,IS1,JMi,:/home/students/k/krzywacl:/bin/tcsh
+----------------------------
+----------------------------
+janwasko:x:5112:5000:Jan Wasko,IS1,JMi,:/home/students/j/janwasko:/bin/tcsh
+----------------------------
+----------------------------
+marcwawr:x:5113:5000:Marcin Wawro,IS1,JMi,:/home/students/m/marcwawr:/bin/tcsh
+----------------------------
+----------------------------
+michwilk:x:5114:5000:Michal Wilk,IS1,JMi,:/home/students/m/michwilk:/bin/tcsh
+----------------------------
+----------------------------
+moniwojt:x:5115:5000:Monika Wojtasik,IS1,JMi,:/home/students/m/moniwojt:/bin/tcsh
+----------------------------
+----------------------------
+matewosi:x:5116:5000:Mateusz Wosik,IS1,JMi,:/home/students/m/matewosi:/bin/tcsh
+----------------------------
+----------------------------
+matezadk:x:5117:5000:Mateusz Zadka,IS1,JMi,:/home/students/m/matezadk:/bin/tcsh
+----------------------------
+----------------------------
+bartzaja:x:5118:5000:Bartlomiej Zajac,IS1,JMi,:/home/students/b/bartzaja:/bin/tcsh
+----------------------------
+----------------------------
+serhzhur:x:5119:5000:Serhii Zhuravel,IS1,JMi,:/home/students/s/serhzhur:/bin/tcsh
+----------------------------
+----------------------------
+piotzini:x:5120:5000:Piotr Ziniewicz,IS1,JMi,:/home/students/p/piotzini:/bin/tcsh
+----------------------------
+----------------------------
+katazuko:x:5121:5000:Katarzyna Zukowska,IS1,JMi,:/home/students/k/katazuko:/bin/tcsh
+----------------------------
+----------------------------
+marcadam:x:5122:5000:Marcin Adamczyk,IS2,a,:/home/students/m/marcadam:/bin/tcsh
+----------------------------
+----------------------------
+przebabi:x:5123:5000:Przemyslaw Babiarz,IS2,a,:/home/students/p/przebabi:/bin/tcsh
+----------------------------
+----------------------------
+wojcbach:x:5124:5000:Wojciech Bachta,IS2,a,:/home/students/w/wojcbach:/bin/tcsh
+----------------------------
+----------------------------
+wiktbara:x:5125:5000:Wiktor Baran,IS2,a,:/home/students/w/wiktbara:/bin/tcsh
+----------------------------
+----------------------------
+alicbara:x:5126:5000:Alicja Baranowska,IS2,a,:/home/students/a/alicbara:/bin/tcsh
+----------------------------
+----------------------------
+sebabatk:x:5127:5000:Sebastian Batko,IS2,a,:/home/students/s/sebabatk:/bin/tcsh
+----------------------------
+----------------------------
+marcbono:x:5128:5000:Marcin Bonowicz,IS2,a,:/home/students/m/marcbono:/bin/tcsh
+----------------------------
+----------------------------
+kamibuko:x:5129:5000:Kamil Bukowczyk,IS2,a,:/home/students/k/kamibuko:/bin/tcsh
+----------------------------
+----------------------------
+jaroburd:x:5130:5000:Jaroslaw Burda,IS2,a,:/home/students/j/jaroburd:/bin/tcsh
+----------------------------
+----------------------------
+stanburk:x:5131:5000:Stanislaw Burkat,IS2,a,:/home/students/s/stanburk:/bin/tcsh
+----------------------------
+----------------------------
+krysbyli:x:5132:5000:Krystian Bylica,IS2,a,:/home/students/k/krysbyli:/bin/tcsh
+----------------------------
+----------------------------
+paulcebo:x:5133:5000:Paulina Cebo,IS2,a,:/home/students/p/paulcebo:/bin/tcsh
+----------------------------
+----------------------------
+alekchle:x:5134:5000:Aleksandra Chlebowicz,IS2,a,:/home/students/a/alekchle:/bin/tcsh
+----------------------------
+----------------------------
+marcchru:x:5135:5000:Marcin Chrupek,IS2,a,:/home/students/m/marcchru:/bin/tcsh
+----------------------------
+----------------------------
+lukachrz:x:5136:5000:Lukasz Chrzaszcz,IS2,a,:/home/students/l/lukachrz:/bin/tcsh
+----------------------------
+----------------------------
+kamidade:x:5137:5000:Kamil Dadel,IS2,a,:/home/students/k/kamidade:/bin/tcsh
+----------------------------
+----------------------------
+piotdemi:x:5138:5000:Piotr Demidowicz,IS2,a,:/home/students/p/piotdemi:/bin/tcsh
+----------------------------
+----------------------------
+marcdlug:x:5139:5000:Marcin Dlugosz,IS2,a,:/home/students/m/marcdlug:/bin/tcsh
+----------------------------
+----------------------------
+michdobi:x:5140:5000:Michal Dobija,IS2,a,:/home/students/m/michdobi:/bin/tcsh
+----------------------------
+----------------------------
+krzydutk:x:5141:5000:Krzysztof Dutko,IS2,a,:/home/students/k/krzydutk:/bin/tcsh
+----------------------------
+----------------------------
+daniedyl:x:5142:5000:Daniel Dyl,IS2,a,:/home/students/d/daniedyl:/bin/tcsh
+----------------------------
+----------------------------
+michdyrk:x:5143:5000:Michal Dyrkacz,IS2,a,:/home/students/m/michdyrk:/bin/tcsh
+----------------------------
+----------------------------
+katadziw:x:5144:5000:Katarzyna Dziwura,IS2,a,:/home/students/k/katadziw:/bin/tcsh
+----------------------------
+----------------------------
+martjorg:x:5145:5000:Martinez Jorge,Fernandez,IS2,:/home/students/a/martjorg:/bin/tcsh
+----------------------------
+----------------------------
+jakufort:x:5146:5000:Jakub Fortunka,IS2,a,:/home/students/j/jakufort:/bin/tcsh
+----------------------------
+----------------------------
+adamgabr:x:5147:5000:Adam Gabrys,IS2,a,:/home/students/a/adamgabr:/bin/tcsh
+----------------------------
+----------------------------
+krzygade:x:5148:5000:Krzysztof Gadek,IS2,a,:/home/students/k/krzygade:/bin/tcsh
+----------------------------
+----------------------------
+jakubgil:x:5149:5000:Jakub Gil,IS2,a,:/home/students/j/jakubgil:/bin/tcsh
+----------------------------
+----------------------------
+lukagryg:x:5150:5000:Lukasz Grygiel,IS2,a,:/home/students/l/lukagryg:/bin/tcsh
+----------------------------
+----------------------------
+krzyhonk:x:5151:5000:Krzysztof Honkisz,IS2,a,:/home/students/k/krzyhonk:/bin/tcsh
+----------------------------
+----------------------------
+konrhope:x:5152:5000:Konrad Hopek,IS2,a,:/home/students/k/konrhope:/bin/tcsh
+----------------------------
+----------------------------
+jakuhyla:x:5153:5000:Jakub Hyla,IS2,a,:/home/students/j/jakuhyla:/bin/tcsh
+----------------------------
+----------------------------
+martjabl:x:5154:5000:Martyna Jablonska,IS2,a,:/home/students/m/martjabl:/bin/tcsh
+----------------------------
+----------------------------
+pawejaro:x:5155:5000:Pawel Jaroch,IS2,a,:/home/students/p/pawejaro:/bin/tcsh
+----------------------------
+----------------------------
+magdjaro:x:5156:5000:Magdalena Jaroszynska,IS2,a,:/home/students/m/magdjaro:/bin/tcsh
+----------------------------
+----------------------------
+przejasi:x:5157:5000:Przemyslaw Jasinski,IS2,a,:/home/students/p/przejasi:/bin/tcsh
+----------------------------
+----------------------------
+danijedr:x:5158:5000:Daniel Jedrusik,IS2,a,:/home/students/d/danijedr:/bin/tcsh
+----------------------------
+----------------------------
+michjusz:x:5159:5000:Michal Juszczak,IS2,a,:/home/students/m/michjusz:/bin/tcsh
+----------------------------
+----------------------------
+wojckasp:x:5160:5000:Wojciech Kasperek,IS2,a,:/home/students/w/wojckasp:/bin/tcsh
+----------------------------
+----------------------------
+matekasz:x:5161:5000:Mateusz Kaszyk,IS2,a,:/home/students/m/matekasz:/bin/tcsh
+----------------------------
+----------------------------
+alekkawa:x:5162:5000:Aleksander Kawala,IS2,a,:/home/students/a/alekkawa:/bin/tcsh
+----------------------------
+----------------------------
+nikokirs:x:5163:5000:Nikodem Kirsz,IS2,a,:/home/students/n/nikokirs:/bin/tcsh
+----------------------------
+----------------------------
+krzykisi:x:5164:5000:Krzysztof Kisiel,IS2,a,:/home/students/k/krzykisi:/bin/tcsh
+----------------------------
+----------------------------
+waldkluk:x:5165:5000:Waldemar Kluk,IS2,a,:/home/students/w/waldkluk:/bin/tcsh
+----------------------------
+----------------------------
+lukakmie:x:5166:5000:Lukasz Kmiecik,IS2,a,:/home/students/l/lukakmie:/bin/tcsh
+----------------------------
+----------------------------
+macikocu:x:5167:5000:Maciej Kocur,IS2,a,:/home/students/m/macikocu:/bin/tcsh
+----------------------------
+----------------------------
+jakukocz:x:5168:5000:Jakub Koczwara,IS2,a,:/home/students/j/jakukocz:/bin/tcsh
+----------------------------
+----------------------------
+matekome:x:5169:5000:Mateusz Komenda,IS2,a,:/home/students/m/matekome:/bin/tcsh
+----------------------------
+----------------------------
+lukakomo:x:5170:5000:Lukasz Komonski,IS2,a,:/home/students/l/lukakomo:/bin/tcsh
+----------------------------
+----------------------------
+bartkoni:x:5171:5000:Bartlomiej Konieczny,IS2,a,:/home/students/b/bartkoni:/bin/tcsh
+----------------------------
+----------------------------
+piotkons:x:5172:5000:Piotr Konsek,IS2,a,:/home/students/p/piotkons:/bin/tcsh
+----------------------------
+----------------------------
+agnikowa:x:5173:5000:Agnieszka Kowal,IS2,a,:/home/students/a/agnikowa:/bin/tcsh
+----------------------------
+----------------------------
+macikowa:x:5174:5000:Maciej Kowalczyk,IS2,a,:/home/students/m/macikowa:/bin/tcsh
+----------------------------
+----------------------------
+kingkozi:x:5175:5000:Kinga Koziol,IS2,a,:/home/students/k/kingkozi:/bin/tcsh
+----------------------------
+----------------------------
+piotkozl:x:5176:5000:Piotr Kozlowski,IS2,a,:/home/students/p/piotkozl:/bin/tcsh
+----------------------------
+----------------------------
+wojckrys:x:5177:5000:Wojciech Kryscinski,IS2,a,:/home/students/w/wojckrys:/bin/tcsh
+----------------------------
+----------------------------
+domikrzy:x:5178:5000:Dominika Krzysztofik,IS2,a,:/home/students/d/domikrzy:/bin/tcsh
+----------------------------
+----------------------------
+krzyskuc:x:5179:5000:Krzysztof Kuc,IS2,a,:/home/students/k/krzyskuc:/bin/tcsh
+----------------------------
+----------------------------
+tomakumo:x:5180:5000:Tomasz Kumor,IS2,a,:/home/students/t/tomakumo:/bin/tcsh
+----------------------------
+----------------------------
+marclach:x:5181:5000:Marcin Lachowicz,IS2,a,:/home/students/m/marclach:/bin/tcsh
+----------------------------
+----------------------------
+martluko:x:5182:5000:Martyna Lukomska,IS2,a,:/home/students/m/martluko:/bin/tcsh
+----------------------------
+----------------------------
+matemade:x:5183:5000:Mateusz Madej,IS2,a,:/home/students/m/matemade:/bin/tcsh
+----------------------------
+----------------------------
+karomagi:x:5184:5000:Karol Magier,IS2,a,:/home/students/k/karomagi:/bin/tcsh
+----------------------------
+----------------------------
+agnimaks:x:5185:5000:Agnieszka Maksylewicz,IS2,a,:/home/students/a/agnimaks:/bin/tcsh
+----------------------------
+----------------------------
+michmank:x:5186:5000:Michal Mankowski,IS2,a,:/home/students/m/michmank:/bin/tcsh
+----------------------------
+----------------------------
+tomamere:x:5187:5000:Tomasz Meresinski,IS2,a,:/home/students/t/tomamere:/bin/tcsh
+----------------------------
+----------------------------
+krzymisi:x:5188:5000:Krzysztof Misiak,IS2,a,:/home/students/k/krzymisi:/bin/tcsh
+----------------------------
+----------------------------
+grzemuch:x:5189:5000:Grzegorz Mucha,IS2,a,:/home/students/g/grzemuch:/bin/tcsh
+----------------------------
+----------------------------
+justmuch:x:5190:5000:Justyna Mucha,IS2,a,:/home/students/j/justmuch:/bin/tcsh
+----------------------------
+----------------------------
+natamusi:x:5191:5000:Natalia Musial,IS2,a,:/home/students/n/natamusi:/bin/tcsh
+----------------------------
+----------------------------
+tomanied:x:5192:5000:Tomasz Niedziela,IS2,a,:/home/students/t/tomanied:/bin/tcsh
+----------------------------
+----------------------------
+lukanosk:x:5193:5000:Lukasz Nosko,IS2,a,:/home/students/l/lukanosk:/bin/tcsh
+----------------------------
+----------------------------
+marinyzn:x:5194:5000:Mariusz Nyznar,IS2,a,:/home/students/m/marinyzn:/bin/tcsh
+----------------------------
+----------------------------
+jaceoles:x:5195:5000:Jacek Oles,IS2,a,:/home/students/j/jaceoles:/bin/tcsh
+----------------------------
+----------------------------
+marcostr:x:5196:5000:Marcin Ostrowski,IS2,a,:/home/students/m/marcostr:/bin/tcsh
+----------------------------
+----------------------------
+adampary:x:5197:5000:Adam Parys,IS2,a,:/home/students/a/adampary:/bin/tcsh
+----------------------------
+----------------------------
+marepasi:x:5198:5000:Marek Pasieka,IS2,a,:/home/students/m/marepasi:/bin/tcsh
+----------------------------
+----------------------------
+filipast:x:5199:5000:Filip Pasternak,IS2,a,:/home/students/f/filipast:/bin/tcsh
+----------------------------
+----------------------------
+artupasz:x:5200:5000:Artur Paszkiewicz,IS2,a,:/home/students/a/artupasz:/bin/tcsh
+----------------------------
+----------------------------
+jakupelc:x:5201:5000:Jakub Pelczar,IS2,a,:/home/students/j/jakupelc:/bin/tcsh
+----------------------------
+----------------------------
+jacepiet:x:5202:5000:Jacek Pietras,IS2,a,:/home/students/j/jacepiet:/bin/tcsh
+----------------------------
+----------------------------
+konrpiet:x:5203:5000:Konrad Pietras,IS2,a,:/home/students/k/konrpiet:/bin/tcsh
+----------------------------
+----------------------------
+jakupiot:x:5204:5000:Jakub Piotrowski,IS2,a,:/home/students/j/jakupiot:/bin/tcsh
+----------------------------
+----------------------------
+michplut:x:5205:5000:Michal Plutecki,IS2,a,:/home/students/m/michplut:/bin/tcsh
+----------------------------
+----------------------------
+krzyplac:x:5206:5000:Krzysztof Plachno,IS2,a,:/home/students/k/krzyplac:/bin/tcsh
+----------------------------
+----------------------------
+annapole:x:5207:5000:Anna Polec,IS2,a,:/home/students/a/annapole:/bin/tcsh
+----------------------------
+----------------------------
+mareryzn:x:5208:5000:Marek Ryznar,IS2,a,:/home/students/m/mareryzn:/bin/tcsh
+----------------------------
+----------------------------
+artssauc:x:5209:5000:Artsem Sauchuk,IS2,a,:/home/students/a/artssauc:/bin/tcsh
+----------------------------
+----------------------------
+adriskro:x:5210:5000:Adrian Skrobacz,IS2,a,:/home/students/a/adriskro:/bin/tcsh
+----------------------------
+----------------------------
+piotsobi:x:5211:5000:Piotr Sobierajski,IS2,a,:/home/students/p/piotsobi:/bin/tcsh
+----------------------------
+----------------------------
+damisoce:x:5212:5000:Damian Socewicz,IS2,a,:/home/students/d/damisoce:/bin/tcsh
+----------------------------
+----------------------------
+krzyspyt:x:5213:5000:Krzysztof Spytkowski,IS2,a,:/home/students/k/krzyspyt:/bin/tcsh
+----------------------------
+----------------------------
+macisrok:x:5214:5000:Maciej Sroka,IS2,a,:/home/students/m/macisrok:/bin/tcsh
+----------------------------
+----------------------------
+alekstar:x:5215:5000:Aleksandra Starzec,IS2,a,:/home/students/a/alekstar:/bin/tcsh
+----------------------------
+----------------------------
+pawestep:x:5216:5000:Pawel Stepien,IS2,a,:/home/students/p/pawestep:/bin/tcsh
+----------------------------
+----------------------------
+michsuwa:x:5217:5000:Michal Suwala,IS2,a,:/home/students/m/michsuwa:/bin/tcsh
+----------------------------
+----------------------------
+annaszar:x:5218:5000:Anna Szarawara,IS2,a,:/home/students/a/annaszar:/bin/tcsh
+----------------------------
+----------------------------
+agniszcz:x:5219:5000:Agnieszka Szczurek,IS2,a,:/home/students/a/agniszcz:/bin/tcsh
+----------------------------
+----------------------------
+izabsmie:x:5220:5000:Izabela Smietana,IS2,a,:/home/students/i/izabsmie:/bin/tcsh
+----------------------------
+----------------------------
+adamswie:x:5221:5000:Adam Swiezowski,IS2,a,:/home/students/a/adamswie:/bin/tcsh
+----------------------------
+----------------------------
+grzetoka:x:5222:5000:Grzegorz Tokarz,IS2,a,:/home/students/g/grzetoka:/bin/tcsh
+----------------------------
+----------------------------
+maciurba:x:5223:5000:Maciej Urbanek,IS2,a,:/home/students/m/maciurba:/bin/tcsh
+----------------------------
+----------------------------
+magdwarz:x:5224:5000:Magdalena Warzecha,IS2,a,:/home/students/m/magdwarz:/bin/tcsh
+----------------------------
+----------------------------
+marewawr:x:5225:5000:Marek Wawrzos,IS2,a,:/home/students/m/marewawr:/bin/tcsh
+----------------------------
+----------------------------
+marcwegr:x:5226:5000:Marcin Wegrzyn,IS2,a,:/home/students/m/marcwegr:/bin/tcsh
+----------------------------
+----------------------------
+witowisn:x:5227:5000:Witold Wisniewski,IS2,a,:/home/students/w/witowisn:/bin/tcsh
+----------------------------
+----------------------------
+karowita:x:5228:5000:Karol Witaszczyk,IS2,a,:/home/students/k/karowita:/bin/tcsh
+----------------------------
+----------------------------
+arkawozn:x:5229:5000:Arkadiusz Wozniak,IS2,a,:/home/students/a/arkawozn:/bin/tcsh
+----------------------------
+----------------------------
+alekwojc:x:5230:5000:Aleksander Wojcik,IS2,a,:/home/students/a/alekwojc:/bin/tcsh
+----------------------------
+----------------------------
+fernsand:x:5231:5000:Fernandez Sandra,Yeste,IS2,:/home/students/a/fernsand:/bin/tcsh
+----------------------------
+----------------------------
+marlzdyb:x:5232:5000:Marlena Zdybel,IS2,a,:/home/students/m/marlzdyb:/bin/tcsh
+----------------------------
+----------------------------
+alicczyz:x:5233:5000:Alicja Czyz,IS2,IWo,:/home/students/a/alicczyz:/bin/tcsh
+----------------------------
+----------------------------
+piotbedn:x:5234:5000:Piotr Bednarz,IS2,IWo,:/home/students/p/piotbedn:/bin/tcsh
+----------------------------
+----------------------------
+oskakuli:x:5235:5000:Oskar Kuligowski,IS2,IWo,:/home/students/o/oskakuli:/bin/tcsh
+----------------------------
+----------------------------
+ziemrach:x:5236:5000:Ziemowit Rachwal,IS2,IWo,:/home/students/z/ziemrach:/bin/tcsh
+----------------------------
+----------------------------
+jakujasi:x:5237:5000:Jakub Jasinski,IS2,IWo,:/home/students/j/jakujasi:/bin/tcsh
+----------------------------
+----------------------------
+karopiet:x:5238:5000:Karol Pietrzyk,IS2,IWo,:/home/students/k/karopiet:/bin/tcsh
+----------------------------
+----------------------------
+matetrel:x:5239:5000:Mateusz Trelka,IS2,IWo,:/home/students/m/matetrel:/bin/tcsh
+----------------------------
+----------------------------
+karoabra:x:5240:5000:Karolina Abram,IS5,210,:/home/students/k/karoabra:/bin/tcsh
+----------------------------
+----------------------------
+agniadam:x:5241:5000:Agnieszka Adamczyk,IS5,210,:/home/students/a/agniadam:/bin/tcsh
+----------------------------
+----------------------------
+kamiadam:x:5242:5000:Kamila Adamiec,IS5,210,:/home/students/k/kamiadam:/bin/tcsh
+----------------------------
+----------------------------
+tomabana:x:5243:5000:Tomasz Banas,IS5,210,:/home/students/t/tomabana:/bin/tcsh
+----------------------------
+----------------------------
+jozebatk:x:5244:5000:Jozef Batkiewicz,IS5,210,:/home/students/j/jozebatk:/bin/tcsh
+----------------------------
+----------------------------
+matebeli:x:5245:5000:Mateusz Belicki,IS5,210,:/home/students/m/matebeli:/bin/tcsh
+----------------------------
+----------------------------
+michbial:x:5246:5000:Michal Bialas,IS5,210,:/home/students/m/michbial:/bin/tcsh
+----------------------------
+----------------------------
+michbiel:x:5247:5000:Michal Biel,IS5,210,:/home/students/m/michbiel:/bin/tcsh
+----------------------------
+----------------------------
+agnibier:x:5248:5000:Agnieszka Biernacka,IS5,210,:/home/students/a/agnibier:/bin/tcsh
+----------------------------
+----------------------------
+jerzbier:x:5249:5000:Jerzy Biernacki,IS5,210,:/home/students/j/jerzbier:/bin/tcsh
+----------------------------
+----------------------------
+marcbier:x:5250:5000:Marcin Biernat,IS5,210,:/home/students/m/marcbier:/bin/tcsh
+----------------------------
+----------------------------
+michblaw:x:5251:5000:Michal Blawat,IS5,210,:/home/students/m/michblaw:/bin/tcsh
+----------------------------
+----------------------------
+bartboga:x:5252:5000:Bartlomiej Bogacz,IS5,210,:/home/students/b/bartboga:/bin/tcsh
+----------------------------
+----------------------------
+lukabrew:x:5253:5000:Lukasz Brewczynski,IS5,210,:/home/students/l/lukabrew:/bin/tcsh
+----------------------------
+----------------------------
+michbryg:x:5254:5000:Michal Brygidyn,IS5,210,:/home/students/m/michbryg:/bin/tcsh
+----------------------------
+----------------------------
+joanbutr:x:5255:5000:Joanna Butryn,IS5,210,:/home/students/j/joanbutr:/bin/tcsh
+----------------------------
+----------------------------
+matecebu:x:5256:5000:Mateusz Cebula,IS5,210,:/home/students/m/matecebu:/bin/tcsh
+----------------------------
+----------------------------
+magdchmi:x:5257:5000:Magda Chmielewska,IS5,210,:/home/students/m/magdchmi:/bin/tcsh
+----------------------------
+----------------------------
+filichwa:x:5258:5000:Filip Chwastowski,IS5,210,:/home/students/f/filichwa:/bin/tcsh
+----------------------------
+----------------------------
+pawecise:x:5259:5000:Pawel Cisek,IS5,210,:/home/students/p/pawecise:/bin/tcsh
+----------------------------
+----------------------------
+tomaczur:x:5260:5000:Tomasz Czura,IS5,210,:/home/students/t/tomaczur:/bin/tcsh
+----------------------------
+----------------------------
+marcdoli:x:5261:5000:Marcin Dolinski,IS5,210,:/home/students/m/marcdoli:/bin/tcsh
+----------------------------
+----------------------------
+michdudk:x:5262:5000:Michal Dudkiewicz,IS5,210,:/home/students/m/michdudk:/bin/tcsh
+----------------------------
+----------------------------
+matedudk:x:5263:5000:Mateusz Dudkowski,IS5,210,:/home/students/m/matedudk:/bin/tcsh
+----------------------------
+----------------------------
+radodzia:x:5264:5000:Radoslaw Dziadusz,IS5,210,:/home/students/r/radodzia:/bin/tcsh
+----------------------------
+----------------------------
+filidzie:x:5265:5000:Filip Dziedzic,IS5,210,:/home/students/f/filidzie:/bin/tcsh
+----------------------------
+----------------------------
+matedziu:x:5266:5000:Mateusz Dziurski,IS5,210,:/home/students/m/matedziu:/bin/tcsh
+----------------------------
+----------------------------
+gabrfija:x:5267:5000:Gabriela Fijalkowska,IS5,210,:/home/students/g/gabrfija:/bin/tcsh
+----------------------------
+----------------------------
+konrfili:x:5268:5000:Konrad Filinski,IS5,210,:/home/students/k/konrfili:/bin/tcsh
+----------------------------
+----------------------------
+krzygabi:x:5269:5000:Krzysztof Gabis,IS5,210,:/home/students/k/krzygabi:/bin/tcsh
+----------------------------
+----------------------------
+piotgank:x:5270:5000:Piotr Gankiewicz,IS5,210,:/home/students/p/piotgank:/bin/tcsh
+----------------------------
+----------------------------
+tomagefe:x:5271:5000:Tomasz Gefert,IS5,210,:/home/students/t/tomagefe:/bin/tcsh
+----------------------------
+----------------------------
+rafagila:x:5272:5000:Rafal Gilarski,IS5,210,:/home/students/r/rafagila:/bin/tcsh
+----------------------------
+----------------------------
+tomaglus:x:5273:5000:Tomasz Gluszak,IS5,210,:/home/students/t/tomaglus:/bin/tcsh
+----------------------------
+----------------------------
+jakugola:x:5274:5000:Jakub Gola,IS5,210,:/home/students/j/jakugola:/bin/tcsh
+----------------------------
+----------------------------
+michgrus:x:5275:5000:Michal Gruszczynski,IS5,210,:/home/students/m/michgrus:/bin/tcsh
+----------------------------
+----------------------------
+michgryg:x:5276:5000:Michal Grygierzec,IS5,210,:/home/students/m/michgryg:/bin/tcsh
+----------------------------
+----------------------------
+lukagryl:x:5277:5000:Lukasz Gryl,IS5,210,:/home/students/l/lukagryl:/bin/tcsh
+----------------------------
+----------------------------
+martgrze:x:5278:5000:Martyna Grzegolec,IS5,210,:/home/students/m/martgrze:/bin/tcsh
+----------------------------
+----------------------------
+macigrzy:x:5279:5000:Maciej Grzymek,IS5,210,:/home/students/m/macigrzy:/bin/tcsh
+----------------------------
+----------------------------
+tomagube:x:5280:5000:Tomasz Gubernat,IS5,210,:/home/students/t/tomagube:/bin/tcsh
+----------------------------
+----------------------------
+darihala:x:5281:5000:Dariusz Halama,IS5,210,:/home/students/d/darihala:/bin/tcsh
+----------------------------
+----------------------------
+leszhanu:x:5282:5000:Leszek Hanusiak,IS5,210,:/home/students/l/leszhanu:/bin/tcsh
+----------------------------
+----------------------------
+tomaibro:x:5283:5000:Tomasz Ibrom,IS5,210,:/home/students/t/tomaibro:/bin/tcsh
+----------------------------
+----------------------------
+slawicie:x:5284:5000:Slawomir Iciek,IS5,210,:/home/students/s/slawicie:/bin/tcsh
+----------------------------
+----------------------------
+filijaro:x:5285:5000:Filip Jarosz,IS5,210,:/home/students/f/filijaro:/bin/tcsh
+----------------------------
+----------------------------
+marijasu:x:5286:5000:Mariusz Jasuwienas,IS5,210,:/home/students/m/marijasu:/bin/tcsh
+----------------------------
+----------------------------
+radojusz:x:5287:5000:Radoslaw Juszczyk,IS5,210,:/home/students/r/radojusz:/bin/tcsh
+----------------------------
+----------------------------
+wojckara:x:5288:5000:Wojciech Karas,IS5,210,:/home/students/w/wojckara:/bin/tcsh
+----------------------------
+----------------------------
+lukakied:x:5289:5000:Lukasz Kieda,IS5,210,:/home/students/l/lukakied:/bin/tcsh
+----------------------------
+----------------------------
+dobrkijo:x:5290:5000:Dobroslaw Kijowski,IS5,210,:/home/students/d/dobrkijo:/bin/tcsh
+----------------------------
+----------------------------
+tomakmie:x:5291:5000:Tomasz Kmiecik,IS5,210,:/home/students/t/tomakmie:/bin/tcsh
+----------------------------
+----------------------------
+jakukoni:x:5292:5000:Jakub Konik,IS5,210,:/home/students/j/jakukoni:/bin/tcsh
+----------------------------
+----------------------------
+michkope:x:5293:5000:Michal Kopec,IS5,210,:/home/students/m/michkope:/bin/tcsh
+----------------------------
+----------------------------
+katakopt:x:5294:5000:Katarzyna Koptyra,IS5,210,:/home/students/k/katakopt:/bin/tcsh
+----------------------------
+----------------------------
+hubekosa:x:5295:5000:Hubert Kosacki,IS5,210,:/home/students/h/hubekosa:/bin/tcsh
+----------------------------
+----------------------------
+marckosz:x:5296:5000:Marcin Kosztolowicz,IS5,210,:/home/students/m/marckosz:/bin/tcsh
+----------------------------
+----------------------------
+matekowa:x:5297:5000:Mateusz Kowal,IS5,210,:/home/students/m/matekowa:/bin/tcsh
+----------------------------
+----------------------------
+kamikozl:x:5298:5000:Kamil Kozlowski,IS5,210,:/home/students/k/kamikozl:/bin/tcsh
+----------------------------
+----------------------------
+adrikrem:x:5299:5000:Adrian Kremski,IS5,210,:/home/students/a/adrikrem:/bin/tcsh
+----------------------------
+----------------------------
+szymkrze:x:5300:5000:Szymon Krzeminski,IS5,210,:/home/students/s/szymkrze:/bin/tcsh
+----------------------------
+----------------------------
+kamikuba:x:5301:5000:Kamil Kubacki,IS5,210,:/home/students/k/kamikuba:/bin/tcsh
+----------------------------
+----------------------------
+joankule:x:5302:5000:Joanna Kulesza,IS5,210,:/home/students/j/joankule:/bin/tcsh
+----------------------------
+----------------------------
+marckulp:x:5303:5000:Marcin Kulpa,IS5,210,:/home/students/m/marckulp:/bin/tcsh
+----------------------------
+----------------------------
+martakut:x:5304:5000:Marta Kut,IS5,210,:/home/students/m/martakut:/bin/tcsh
+----------------------------
+----------------------------
+przekwia:x:5305:5000:Przemyslaw Kwiatkowski,IS5,210,:/home/students/p/przekwia:/bin/tcsh
+----------------------------
+----------------------------
+bartladz:x:5306:5000:Bartosz Ladzinski,IS5,210,:/home/students/b/bartladz:/bin/tcsh
+----------------------------
+----------------------------
+lukalege:x:5307:5000:Lukasz Legenc,IS5,210,:/home/students/l/lukalege:/bin/tcsh
+----------------------------
+----------------------------
+matelesi:x:5308:5000:Mateusz Lesinski,IS5,210,:/home/students/m/matelesi:/bin/tcsh
+----------------------------
+----------------------------
+lukaligu:x:5309:5000:Lukasz Ligus,IS5,210,:/home/students/l/lukaligu:/bin/tcsh
+----------------------------
+----------------------------
+kamilopa:x:5310:5000:Kamil Lopata,IS5,210,:/home/students/k/kamilopa:/bin/tcsh
+----------------------------
+----------------------------
+adammach:x:5311:5000:Adam Machowski,IS5,210,:/home/students/a/adammach:/bin/tcsh
+----------------------------
+----------------------------
+kacpmade:x:5312:5000:Kacper Madej,IS5,210,:/home/students/k/kacpmade:/bin/tcsh
+----------------------------
+----------------------------
+janmarek:x:5313:5000:Jan Marek,IS5,210,:/home/students/j/janmarek:/bin/tcsh
+----------------------------
+----------------------------
+doromars:x:5314:5000:Dorota Marszalik,IS5,210,:/home/students/d/doromars:/bin/tcsh
+----------------------------
+----------------------------
+marcmarz:x:5315:5000:Marcin Marzynski,IS5,210,:/home/students/m/marcmarz:/bin/tcsh
+----------------------------
+----------------------------
+jakumatl:x:5316:5000:Jakub Matlak,IS5,210,:/home/students/j/jakumatl:/bin/tcsh
+----------------------------
+----------------------------
+wojcmich:x:5317:5000:Wojciech Michalkiewicz,IS5,210,:/home/students/w/wojcmich:/bin/tcsh
+----------------------------
+----------------------------
+krzymire:x:5318:5000:Krzysztof Mirek,IS5,210,:/home/students/k/krzymire:/bin/tcsh
+----------------------------
+----------------------------
+pawenest:x:5319:5000:Pawel Nester,IS5,210,:/home/students/p/pawenest:/bin/tcsh
+----------------------------
+----------------------------
+jakunose:x:5320:5000:Jakub Nosek,IS5,210,:/home/students/j/jakunose:/bin/tcsh
+----------------------------
+----------------------------
+aleknowa:x:5321:5000:Aleksander Nowak,IS5,210,:/home/students/a/aleknowa:/bin/tcsh
+----------------------------
+----------------------------
+konroboz:x:5322:5000:Konrad Oboza,IS5,210,:/home/students/k/konroboz:/bin/tcsh
+----------------------------
+----------------------------
+paweogo1:x:5323:5000:Pawel Ogorzalek,IS5,210,:/home/students/p/paweogo1:/bin/tcsh
+----------------------------
+----------------------------
+alekolku:x:5324:5000:Aleksander Olkuski,IS5,210,:/home/students/a/alekolku:/bin/tcsh
+----------------------------
+----------------------------
+jakuosik:x:5325:5000:Jakub Osika,IS5,210,:/home/students/j/jakuosik:/bin/tcsh
+----------------------------
+----------------------------
+michpalk:x:5326:5000:Michal Palka,IS5,210,:/home/students/m/michpalk:/bin/tcsh
+----------------------------
+----------------------------
+daripapi:x:5327:5000:Dariusz Papierniak,IS5,210,:/home/students/d/daripapi:/bin/tcsh
+----------------------------
+----------------------------
+cezapiat:x:5328:5000:Cezary Piatek,IS5,210,:/home/students/c/cezapiat:/bin/tcsh
+----------------------------
+----------------------------
+krzypien:x:5329:5000:Krzysztof Pieniazek,IS5,210,:/home/students/k/krzypien:/bin/tcsh
+----------------------------
+----------------------------
+lukapiot:x:5330:5000:Lukasz Piotrowski,IS5,210,:/home/students/l/lukapiot:/bin/tcsh
+----------------------------
+----------------------------
+tomapola:x:5331:5000:Tomasz Polanowski,IS5,210,:/home/students/t/tomapola:/bin/tcsh
+----------------------------
+----------------------------
+malgpros:x:5332:5000:Malgorzata Proszowska,IS5,210,:/home/students/m/malgpros:/bin/tcsh
+----------------------------
+----------------------------
+przepula:x:5333:5000:Przemyslaw Pulanecki,IS5,210,:/home/students/p/przepula:/bin/tcsh
+----------------------------
+----------------------------
+krzyrusn:x:5334:5000:Krzysztof Rusnarczyk,IS5,210,:/home/students/k/krzyrusn:/bin/tcsh
+----------------------------
+----------------------------
+marirydz:x:5335:5000:Maria Rydzy,IS5,210,:/home/students/m/marirydz:/bin/tcsh
+----------------------------
+----------------------------
+tomasiep:x:5336:5000:Tomasz Sieprawski,IS5,210,:/home/students/t/tomasiep:/bin/tcsh
+----------------------------
+----------------------------
+mateskow:x:5337:5000:Mateusz Skowron,IS5,210,:/home/students/m/mateskow:/bin/tcsh
+----------------------------
+----------------------------
+artuskow:x:5338:5000:Artur Skowronski,IS5,210,:/home/students/a/artuskow:/bin/tcsh
+----------------------------
+----------------------------
+wojcskra:x:5339:5000:Wojciech Skrabalak,IS5,210,:/home/students/w/wojcskra:/bin/tcsh
+----------------------------
+----------------------------
+piotsnar:x:5340:5000:Piotr Snarski,IS5,210,:/home/students/p/piotsnar:/bin/tcsh
+----------------------------
+----------------------------
+lukaspas:x:5341:5000:Lukasz Spas,IS5,210,:/home/students/l/lukaspas:/bin/tcsh
+----------------------------
+----------------------------
+tomasreb:x:5342:5000:Tomasz Srebrny,IS5,210,:/home/students/t/tomasreb:/bin/tcsh
+----------------------------
+----------------------------
+mikostas:x:5343:5000:Mikolaj Staszkiewicz,IS5,210,:/home/students/m/mikostas:/bin/tcsh
+----------------------------
+----------------------------
+konrstro:x:5344:5000:Konrad Strojny,IS5,210,:/home/students/k/konrstro:/bin/tcsh
+----------------------------
+----------------------------
+michstru:x:5345:5000:Michal Strus,IS5,210,:/home/students/m/michstru:/bin/tcsh
+----------------------------
+----------------------------
+rafastud:x:5346:5000:Rafal Studnicki,IS5,210,:/home/students/r/rafastud:/bin/tcsh
+----------------------------
+----------------------------
+tomaszcz:x:5347:5000:Tomasz Szczesniak,IS5,210,:/home/students/t/tomaszcz:/bin/tcsh
+----------------------------
+----------------------------
+hubeszos:x:5348:5000:Hubert Szostek,IS5,210,:/home/students/h/hubeszos:/bin/tcsh
+----------------------------
+----------------------------
+kacpszur:x:5349:5000:Kacper Szurek,IS5,210,:/home/students/k/kacpszur:/bin/tcsh
+----------------------------
+----------------------------
+tomascis:x:5350:5000:Tomasz Scislowicz,IS5,210,:/home/students/t/tomascis:/bin/tcsh
+----------------------------
+----------------------------
+daritarc:x:5351:5000:Dariusz Tarczynski,IS5,210,:/home/students/d/daritarc:/bin/tcsh
+----------------------------
+----------------------------
+zbigteki:x:5352:5000:Zbigniew Tekiela,IS5,210,:/home/students/z/zbigteki:/bin/tcsh
+----------------------------
+----------------------------
+andrtoka:x:5353:5000:Andrzej Tokarski,IS5,210,:/home/students/a/andrtoka:/bin/tcsh
+----------------------------
+----------------------------
+piottoka:x:5354:5000:Piotr Tokarzewski,IS5,210,:/home/students/p/piottoka:/bin/tcsh
+----------------------------
+----------------------------
+przetoma:x:5355:5000:Przemyslaw Tomala,IS5,210,:/home/students/p/przetoma:/bin/tcsh
+----------------------------
+----------------------------
+krystroj:x:5356:5000:Krystyna Trojanowska,IS5,210,:/home/students/k/krystroj:/bin/tcsh
+----------------------------
+----------------------------
+pawetryb:x:5357:5000:Pawel Tryba,IS5,210,:/home/students/p/pawetryb:/bin/tcsh
+----------------------------
+----------------------------
+jakuwach:x:5358:5000:Jakub Wach,IS5,210,:/home/students/j/jakuwach:/bin/tcsh
+----------------------------
+----------------------------
+wojcwant:x:5359:5000:Wojciech Wantuch,IS5,210,:/home/students/w/wojcwant:/bin/tcsh
+----------------------------
+----------------------------
+karowart:x:5360:5000:Karol Wartak,IS5,210,:/home/students/k/karowart:/bin/tcsh
+----------------------------
+----------------------------
+jakuwasi:x:5361:5000:Jakub Wasielak,IS5,210,:/home/students/j/jakuwasi:/bin/tcsh
+----------------------------
+----------------------------
+grzewaso:x:5362:5000:Grzegorz Wasowski,IS5,210,:/home/students/g/grzewaso:/bin/tcsh
+----------------------------
+----------------------------
+piotwini:x:5363:5000:Piotr Winiarski,IS5,210,:/home/students/p/piotwini:/bin/tcsh
+----------------------------
+----------------------------
+dariwole:x:5364:5000:Dariusz Wolek,IS5,210,:/home/students/d/dariwole:/bin/tcsh
+----------------------------
+----------------------------
+joanwozn:x:5365:5000:Joanna Wozniak,IS5,210,:/home/students/j/joanwozn:/bin/tcsh
+----------------------------
+----------------------------
+karowojc:x:5366:5000:Karol Wojcik,IS5,210,:/home/students/k/karowojc:/bin/tcsh
+----------------------------
+----------------------------
+marcwron:x:5367:5000:Marcin Wrona,IS5,210,:/home/students/m/marcwron:/bin/tcsh
+----------------------------
+----------------------------
+lukawrob:x:5368:5000:Lukasz Wroblewski,IS5,210,:/home/students/l/lukawrob:/bin/tcsh
+----------------------------
+----------------------------
+sebazapr:x:5369:5000:Sebastian Zaprzalski,IS5,210,:/home/students/s/sebazapr:/bin/tcsh
+----------------------------
+----------------------------
+przeziel:x:5370:5000:Przemyslaw Zielinski,IS5,210,:/home/students/p/przeziel:/bin/tcsh
+----------------------------
+----------------------------
+kamizytk:x:5371:5000:Kamil Zytka,IS5,210,:/home/students/k/kamizytk:/bin/tcsh
+----------------------------
+----------------------------
+jaceanto:x:5372:5000:Jacek Antos,IS3,214,:/home/students/j/jaceanto:/bin/tcsh
+----------------------------
+----------------------------
+krzybalo:x:5373:5000:Krzysztof Balon,IS3,214,:/home/students/k/krzybalo:/bin/tcsh
+----------------------------
+----------------------------
+tomababa:x:5374:5000:Tomasz Baba,IS3,214,:/home/students/t/tomababa:/bin/tcsh
+----------------------------
+----------------------------
+marcibak:x:5375:5000:Marcin Bak,IS3,214,:/home/students/m/marcibak:/bin/tcsh
+----------------------------
+----------------------------
+janbiero:x:5376:5000:Jan Bieron,IS3,214,:/home/students/j/janbiero:/bin/tcsh
+----------------------------
+----------------------------
+marcbola:x:5377:5000:Marcin Bolak,IS3,214,:/home/students/m/marcbola:/bin/tcsh
+----------------------------
+----------------------------
+joanbona:x:5378:5000:Joanna Bona,IS3,214,:/home/students/j/joanbona:/bin/tcsh
+----------------------------
+----------------------------
+pawebran:x:5379:5000:Pawel Branka,IS3,214,:/home/students/p/pawebran:/bin/tcsh
+----------------------------
+----------------------------
+piotbrud:x:5380:5000:Piotr Brudny,IS3,214,:/home/students/p/piotbrud:/bin/tcsh
+----------------------------
+----------------------------
+macibrun:x:5381:5000:Maciej BrunoKaminski,IS3,214,:/home/students/m/macibrun:/bin/tcsh
+----------------------------
+----------------------------
+matebryl:x:5382:5000:Mateusz Bryla,IS3,214,:/home/students/m/matebryl:/bin/tcsh
+----------------------------
+----------------------------
+grzebyli:x:5383:5000:Grzegorz Bylina,IS3,214,:/home/students/g/grzebyli:/bin/tcsh
+----------------------------
+----------------------------
+monicaba:x:5384:5000:Monika Cabaj,IS3,214,:/home/students/m/monicaba:/bin/tcsh
+----------------------------
+----------------------------
+jakuchro:x:5385:5000:Jakub Chrobak,IS3,214,:/home/students/j/jakuchro:/bin/tcsh
+----------------------------
+----------------------------
+michczer:x:5386:5000:Michal Czernek,IS3,214,:/home/students/m/michczer:/bin/tcsh
+----------------------------
+----------------------------
+michdroz:x:5387:5000:Michal Drozdz,IS3,214,:/home/students/m/michdroz:/bin/tcsh
+----------------------------
+----------------------------
+kamidzia:x:5388:5000:Kamil Dziasek,IS3,214,:/home/students/k/kamidzia:/bin/tcsh
+----------------------------
+----------------------------
+piotflor:x:5389:5000:Piotr Florczyk,IS3,214,:/home/students/p/piotflor:/bin/tcsh
+----------------------------
+----------------------------
+michforn:x:5390:5000:Michal Fornagiel,IS3,214,:/home/students/m/michforn:/bin/tcsh
+----------------------------
+----------------------------
+kacpfurm:x:5391:5000:Kacper Furmanski,IS3,214,:/home/students/k/kacpfurm:/bin/tcsh
+----------------------------
+----------------------------
+michgajd:x:5392:5000:Michal Gajda,IS3,214,:/home/students/m/michgajd:/bin/tcsh
+----------------------------
+----------------------------
+tomagajd:x:5393:5000:Tomasz Gajda,IS3,214,:/home/students/t/tomagajd:/bin/tcsh
+----------------------------
+----------------------------
+krzygasz:x:5394:5000:Krzysztof Gaszynski,IS3,214,:/home/students/k/krzygasz:/bin/tcsh
+----------------------------
+----------------------------
+krzygier:x:5395:5000:Krzysztof Gieron,IS3,214,:/home/students/k/krzygier:/bin/tcsh
+----------------------------
+----------------------------
+maciglug:x:5396:5000:Maciej Glug,IS3,214,:/home/students/m/maciglug:/bin/tcsh
+----------------------------
+----------------------------
+lukagore:x:5397:5000:Lukasz Gorecki,IS3,214,:/home/students/l/lukagore:/bin/tcsh
+----------------------------
+----------------------------
+danigrek:x:5398:5000:Daniel Grek,IS3,214,:/home/students/d/danigrek:/bin/tcsh
+----------------------------
+----------------------------
+pawegrub:x:5399:5000:Pawel Grubarek,IS3,214,:/home/students/p/pawegrub:/bin/tcsh
+----------------------------
+----------------------------
+artugrze:x:5400:5000:Artur Grzesica,IS3,214,:/home/students/a/artugrze:/bin/tcsh
+----------------------------
+----------------------------
+marcgrze:x:5401:5000:Marcin Grzeskowiak,IS3,214,:/home/students/m/marcgrze:/bin/tcsh
+----------------------------
+----------------------------
+krzygrzy:x:5402:5000:Krzysztof Grzyb,IS3,214,:/home/students/k/krzygrzy:/bin/tcsh
+----------------------------
+----------------------------
+wojcharz:x:5403:5000:Wojciech Harzowski,IS3,214,:/home/students/w/wojcharz:/bin/tcsh
+----------------------------
+----------------------------
+barthebd:x:5404:5000:Bartlomiej Hebda,IS3,214,:/home/students/b/barthebd:/bin/tcsh
+----------------------------
+----------------------------
+katahens:x:5405:5000:Katarzyna Henslok,IS3,214,:/home/students/k/katahens:/bin/tcsh
+----------------------------
+----------------------------
+tomaidzi:x:5406:5000:Tomasz Idziak,IS3,214,:/home/students/t/tomaidzi:/bin/tcsh
+----------------------------
+----------------------------
+magdidzi:x:5407:5000:Magdalena Idzik,IS3,214,:/home/students/m/magdidzi:/bin/tcsh
+----------------------------
+----------------------------
+justjago:x:5408:5000:Justyna Jagodzinska,IS3,214,:/home/students/j/justjago:/bin/tcsh
+----------------------------
+----------------------------
+kamijamr:x:5409:5000:Kamil Jamroz,IS3,214,:/home/students/k/kamijamr:/bin/tcsh
+----------------------------
+----------------------------
+matejura:x:5410:5000:Mateusz Juraszek,IS3,214,:/home/students/m/matejura:/bin/tcsh
+----------------------------
+----------------------------
+tomakali:x:5411:5000:Tomasz Kalinowski,IS3,214,:/home/students/t/tomakali:/bin/tcsh
+----------------------------
+----------------------------
+lukakarc:x:5412:5000:Lukasz Karcz,IS3,214,:/home/students/l/lukakarc:/bin/tcsh
+----------------------------
+----------------------------
+michkida:x:5413:5000:Michal Kidawa,IS3,214,:/home/students/m/michkida:/bin/tcsh
+----------------------------
+----------------------------
+piotknop:x:5414:5000:Piotr Knop,IS3,214,:/home/students/p/piotknop:/bin/tcsh
+----------------------------
+----------------------------
+klaukold:x:5415:5000:Klaudia Koldarz,IS3,214,:/home/students/k/klaukold:/bin/tcsh
+----------------------------
+----------------------------
+konrkomn:x:5416:5000:Konrad Komnata,IS3,214,:/home/students/k/konrkomn:/bin/tcsh
+----------------------------
+----------------------------
+szymkoni:x:5417:5000:Szymon Konicki,IS3,214,:/home/students/s/szymkoni:/bin/tcsh
+----------------------------
+----------------------------
+kamikoni:x:5418:5000:Kamil Konieczny,IS3,214,:/home/students/k/kamikoni:/bin/tcsh
+----------------------------
+----------------------------
+kamikopc:x:5419:5000:Kamil Kopczyk,IS3,214,:/home/students/k/kamikopc:/bin/tcsh
+----------------------------
+----------------------------
+tomakore:x:5420:5000:Tomasz Korecki,IS3,214,:/home/students/t/tomakore:/bin/tcsh
+----------------------------
+----------------------------
+grzekost:x:5421:5000:Grzegorz Kostalkowicz,IS3,214,:/home/students/g/grzekost:/bin/tcsh
+----------------------------
+----------------------------
+matekotl:x:5422:5000:Mateusz Kotlarz,IS3,214,:/home/students/m/matekotl:/bin/tcsh
+----------------------------
+----------------------------
+bartkowa:x:5423:5000:Bartosz Kowalik,IS3,214,:/home/students/b/bartkowa:/bin/tcsh
+----------------------------
+----------------------------
+filikoza:x:5424:5000:Filip Kozak,IS3,214,:/home/students/f/filikoza:/bin/tcsh
+----------------------------
+----------------------------
+grzekozu:x:5425:5000:Grzegorz Kozub,IS3,214,:/home/students/g/grzekozu:/bin/tcsh
+----------------------------
+----------------------------
+krzykrok:x:5426:5000:Krzysztof Krok,IS3,214,:/home/students/k/krzykrok:/bin/tcsh
+----------------------------
+----------------------------
+matekuch:x:5427:5000:Mateusz Kucharski,IS3,214,:/home/students/m/matekuch:/bin/tcsh
+----------------------------
+----------------------------
+darikuka:x:5428:5000:Dariusz Kukawski,IS3,214,:/home/students/d/darikuka:/bin/tcsh
+----------------------------
+----------------------------
+matekula:x:5429:5000:Mateusz Kulawik,IS3,214,:/home/students/m/matekula:/bin/tcsh
+----------------------------
+----------------------------
+adrikuma:x:5430:5000:Adrian Kuma,IS3,214,:/home/students/a/adrikuma:/bin/tcsh
+----------------------------
+----------------------------
+michkurz:x:5431:5000:Michal Kurzeja,IS3,214,:/home/students/m/michkurz:/bin/tcsh
+----------------------------
+----------------------------
+malgmaci:x:5432:5000:Malgorzata Maciurzynska,IS3,214,:/home/students/m/malgmaci:/bin/tcsh
+----------------------------
+----------------------------
+aleksmaj:x:5433:5000:Aleksander Maj,IS3,214,:/home/students/a/aleksmaj:/bin/tcsh
+----------------------------
+----------------------------
+mateumaj:x:5434:5000:Mateusz Maj,IS3,214,:/home/students/m/mateumaj:/bin/tcsh
+----------------------------
+----------------------------
+damimala:x:5435:5000:Damian Malarczyk,IS3,214,:/home/students/d/damimala:/bin/tcsh
+----------------------------
+----------------------------
+miromale:x:5436:5000:Miroslaw Malek,IS3,214,:/home/students/m/miromale:/bin/tcsh
+----------------------------
+----------------------------
+artumarc:x:5437:5000:Artur Marchewka,IS3,214,:/home/students/a/artumarc:/bin/tcsh
+----------------------------
+----------------------------
+michmate:x:5438:5000:Michal Materniak,IS3,214,:/home/students/m/michmate:/bin/tcsh
+----------------------------
+----------------------------
+adammich:x:5439:5000:Adam Michna,IS3,214,:/home/students/a/adammich:/bin/tcsh
+----------------------------
+----------------------------
+marcmiko:x:5440:5000:Marcin Mikolajczyk,IS3,214,:/home/students/m/marcmiko:/bin/tcsh
+----------------------------
+----------------------------
+grzemire:x:5441:5000:Grzegorz Mirek,IS3,214,:/home/students/g/grzemire:/bin/tcsh
+----------------------------
+----------------------------
+krzymisz:x:5442:5000:Krzysztof Misztal,IS3,214,:/home/students/k/krzymisz:/bin/tcsh
+----------------------------
+----------------------------
+piotmita:x:5443:5000:Piotr Mitana,IS3,214,:/home/students/p/piotmita:/bin/tcsh
+----------------------------
+----------------------------
+adammusi:x:5444:5000:Adam Musial,IS3,214,:/home/students/a/adammusi:/bin/tcsh
+----------------------------
+----------------------------
+pawemusi:x:5445:5000:Pawel Musial,IS3,214,:/home/students/p/pawemusi:/bin/tcsh
+----------------------------
+----------------------------
+agatmysi:x:5446:5000:Agata Mysiak,IS3,214,:/home/students/a/agatmysi:/bin/tcsh
+----------------------------
+----------------------------
+michniem:x:5447:5000:Michal Niemiec,IS3,214,:/home/students/m/michniem:/bin/tcsh
+----------------------------
+----------------------------
+mikonowa:x:5448:5000:Mikolaj Nowak,IS3,214,:/home/students/m/mikonowa:/bin/tcsh
+----------------------------
+----------------------------
+agatpaci:x:5449:5000:Agata Paciorek,IS3,214,:/home/students/a/agatpaci:/bin/tcsh
+----------------------------
+----------------------------
+piotpalk:x:5450:5000:Piotr Palka,IS3,214,:/home/students/p/piotpalk:/bin/tcsh
+----------------------------
+----------------------------
+marcpast:x:5451:5000:Marcelina Pastuszczak,IS3,214,:/home/students/m/marcpast:/bin/tcsh
+----------------------------
+----------------------------
+jacepawe:x:5452:5000:Jacek Pawelczak,IS3,214,:/home/students/j/jacepawe:/bin/tcsh
+----------------------------
+----------------------------
+jakupel1:x:5453:5000:Jakub Pelc,IS3,214,:/home/students/j/jakupel1:/bin/tcsh
+----------------------------
+----------------------------
+michpier:x:5454:5000:Michal Pierzchala,IS3,214,:/home/students/m/michpier:/bin/tcsh
+----------------------------
+----------------------------
+maripila:x:5455:5000:Mariusz Pilarczyk,IS3,214,:/home/students/m/maripila:/bin/tcsh
+----------------------------
+----------------------------
+rafaplon:x:5456:5000:Rafal Plonka,IS3,214,:/home/students/r/rafaplon:/bin/tcsh
+----------------------------
+----------------------------
+matepluc:x:5457:5000:Mateusz Pluciennik,IS3,214,:/home/students/m/matepluc:/bin/tcsh
+----------------------------
+----------------------------
+krzyporz:x:5458:5000:Krzysztof Porzycki,IS3,214,:/home/students/k/krzyporz:/bin/tcsh
+----------------------------
+----------------------------
+kacppolc:x:5459:5000:Kacper Polchlopek,IS3,214,:/home/students/k/kacppolc:/bin/tcsh
+----------------------------
+----------------------------
+robeprzy:x:5460:5000:Robert Przystasz,IS3,214,:/home/students/r/robeprzy:/bin/tcsh
+----------------------------
+----------------------------
+michrato:x:5461:5000:Michal Raton,IS3,214,:/home/students/m/michrato:/bin/tcsh
+----------------------------
+----------------------------
+marcrudn:x:5462:5000:Marcin Rudnicki,IS3,214,:/home/students/m/marcrudn:/bin/tcsh
+----------------------------
+----------------------------
+sabirydz:x:5463:5000:Sabina Rydzek,IS3,214,:/home/students/s/sabirydz:/bin/tcsh
+----------------------------
+----------------------------
+majascha:x:5464:5000:Maja Schaefer,IS3,214,:/home/students/m/majascha:/bin/tcsh
+----------------------------
+----------------------------
+konrsewe:x:5465:5000:Konrad Seweryn,IS3,214,:/home/students/k/konrsewe:/bin/tcsh
+----------------------------
+----------------------------
+dawismot:x:5466:5000:Dawid Smoter,IS3,214,:/home/students/d/dawismot:/bin/tcsh
+----------------------------
+----------------------------
+jakusobo:x:5467:5000:Jakub Sobon,IS3,214,:/home/students/j/jakusobo:/bin/tcsh
+----------------------------
+----------------------------
+macispyr:x:5468:5000:Maciej Spyra,IS3,214,:/home/students/m/macispyr:/bin/tcsh
+----------------------------
+----------------------------
+matestan:x:5469:5000:Mateusz Stanaszek,IS3,214,:/home/students/m/matestan:/bin/tcsh
+----------------------------
+----------------------------
+patrstec:x:5470:5000:Patryk Steckel,IS3,214,:/home/students/p/patrstec:/bin/tcsh
+----------------------------
+----------------------------
+przeszcz:x:5471:5000:Przemyslaw Szczepaniak,IS3,214,:/home/students/p/przeszcz:/bin/tcsh
+----------------------------
+----------------------------
+matescir:x:5472:5000:Mateusz Scirka,IS3,214,:/home/students/m/matescir:/bin/tcsh
+----------------------------
+----------------------------
+michslus:x:5473:5000:Michal Slusarczyk,IS3,214,:/home/students/m/michslus:/bin/tcsh
+----------------------------
+----------------------------
+marcspie:x:5474:5000:Marcin Spiewak,IS3,214,:/home/students/m/marcspie:/bin/tcsh
+----------------------------
+----------------------------
+lukatoma:x:5475:5000:Lukasz Tomaszkiewicz,IS3,214,:/home/students/l/lukatoma:/bin/tcsh
+----------------------------
+----------------------------
+michurba:x:5476:5000:Michal Urbanek,IS3,214,:/home/students/m/michurba:/bin/tcsh
+----------------------------
+----------------------------
+karowarc:x:5477:5000:Karol Warchalowski,IS3,214,:/home/students/k/karowarc:/bin/tcsh
+----------------------------
+----------------------------
+michwarz:x:5478:5000:Michal Warzecha,IS3,214,:/home/students/m/michwarz:/bin/tcsh
+----------------------------
+----------------------------
+malgweso:x:5479:5000:Malgorzata Wesolowska,IS3,214,:/home/students/m/malgweso:/bin/tcsh
+----------------------------
+----------------------------
+lukawich:x:5480:5000:Lukasz Wicher,IS3,214,:/home/students/l/lukawich:/bin/tcsh
+----------------------------
+----------------------------
+magdwitk:x:5481:5000:Magdalena Witkowska,IS3,214,:/home/students/m/magdwitk:/bin/tcsh
+----------------------------
+----------------------------
+bartwojd:x:5482:5000:Bartlomiej Wojdan,IS3,214,:/home/students/b/bartwojd:/bin/tcsh
+----------------------------
+----------------------------
+grzewojc:x:5483:5000:Grzegorz Wojcicki,IS3,214,:/home/students/g/grzewojc:/bin/tcsh
+----------------------------
+----------------------------
+adriwojc:x:5484:5000:Adrian Wojcikiewicz,IS3,214,:/home/students/a/adriwojc:/bin/tcsh
+----------------------------
+----------------------------
+elpiwszo:x:5485:5000:Elpidiusz Wszolek,IS3,214,:/home/students/e/elpiwszo:/bin/tcsh
+----------------------------
+----------------------------
+bartwygl:x:5486:5000:Bartosz Wygledacz,IS3,214,:/home/students/b/bartwygl:/bin/tcsh
+----------------------------
+----------------------------
+domiwyro:x:5487:5000:Dominik Wyroba,IS3,214,:/home/students/d/domiwyro:/bin/tcsh
+----------------------------
+----------------------------
+pawezaja:x:5488:5000:Pawel Zajac,IS3,214,:/home/students/p/pawezaja:/bin/tcsh
+----------------------------
+----------------------------
+annazakr:x:5489:5000:Anna Zakrzewska,IS3,214,:/home/students/a/annazakr:/bin/tcsh
+----------------------------
+----------------------------
+wojczieb:x:5490:5000:Wojciech Zieba,IS3,214,:/home/students/w/wojczieb:/bin/tcsh
+----------------------------
+----------------------------
+andrzuza:x:5491:5000:Andrzej Zuzak,IS3,214,:/home/students/a/andrzuza:/bin/tcsh
+----------------------------
+----------------------------
+adamzela:x:5492:5000:Adam Zelazowski,IS3,214,:/home/students/a/adamzela:/bin/tcsh
+----------------------------
+----------------------------
+grzejask:x:5493:5000:Grzegorz Jasko,IS3,214,:/home/students/g/grzejask:/bin/tcsh
+----------------------------
+----------------------------
+agnibach:x:5494:5000:Agnieszka BachledaBaca,PAWjw,209,:/home/students/a/agnibach:/bin/tcsh
+----------------------------
+----------------------------
+adribien:x:5495:5000:Adriana Bieniek,PAWjw,209,:/home/students/a/adribien:/bin/tcsh
+----------------------------
+----------------------------
+sebabien:x:5496:5000:Sebastian Bien,PAWjw,209,:/home/students/s/sebabien:/bin/tcsh
+----------------------------
+----------------------------
+tomaboch:x:5497:5000:Tomasz Bochenek,PAWjw,209,:/home/students/t/tomaboch:/bin/tcsh
+----------------------------
+----------------------------
+tomabrzd:x:5498:5000:Tomasz Brzdak,PAWjw,209,:/home/students/t/tomabrzd:/bin/tcsh
+----------------------------
+----------------------------
+michbuko:x:5499:5000:Michal Bukowski,PAWjw,209,:/home/students/m/michbuko:/bin/tcsh
+----------------------------
+----------------------------
+przecyra:x:5500:5000:Przemyslaw Cyran,PAWjw,209,:/home/students/p/przecyra:/bin/tcsh
+----------------------------
+----------------------------
+tomadzie:x:5501:5000:Tomasz Dziedzic,PAWjw,209,:/home/students/t/tomadzie:/bin/tcsh
+----------------------------
+----------------------------
+grzegaje:x:5502:5000:Grzegorz Gajewski,PAWjw,209,:/home/students/g/grzegaje:/bin/tcsh
+----------------------------
+----------------------------
+andrzgoc:x:5503:5000:Andrzej Goc,PAWjw,209,:/home/students/a/andrzgoc:/bin/tcsh
+----------------------------
+----------------------------
+marcgold:x:5504:5000:Marcin Golda,PAWjw,209,:/home/students/m/marcgold:/bin/tcsh
+----------------------------
+----------------------------
+janujodl:x:5505:5000:Janusz Jodlowski,PAWjw,209,:/home/students/j/janujodl:/bin/tcsh
+----------------------------
+----------------------------
+wojckaba:x:5506:5000:Wojciech Kabala,PAWjw,209,:/home/students/w/wojckaba:/bin/tcsh
+----------------------------
+----------------------------
+marikale:x:5507:5000:Marika Kaletowska,PAWjw,209,:/home/students/m/marikale:/bin/tcsh
+----------------------------
+----------------------------
+pawekonk:x:5508:5000:Pawel Konkol,PAWjw,209,:/home/students/p/pawekonk:/bin/tcsh
+----------------------------
+----------------------------
+matekono:x:5509:5000:Mateusz Konopka,PAWjw,209,:/home/students/m/matekono:/bin/tcsh
+----------------------------
+----------------------------
+adamkowa:x:5510:5000:Adam Kowalski,PAWjw,209,:/home/students/a/adamkowa:/bin/tcsh
+----------------------------
+----------------------------
+marckowa:x:5511:5000:Marcin Kowalski,PAWjw,209,:/home/students/m/marckowa:/bin/tcsh
+----------------------------
+----------------------------
+annakowo:x:5512:5000:Anna Kowolik,PAWjw,209,:/home/students/a/annakowo:/bin/tcsh
+----------------------------
+----------------------------
+michkrys:x:5513:5000:Michal Kryszkiewicz,PAWjw,209,:/home/students/m/michkrys:/bin/tcsh
+----------------------------
+----------------------------
+piotkrze:x:5514:5000:Piotr Krzewicki,PAWjw,209,:/home/students/p/piotkrze:/bin/tcsh
+----------------------------
+----------------------------
+domikuta:x:5515:5000:Dominik Kuta,PAWjw,209,:/home/students/d/domikuta:/bin/tcsh
+----------------------------
+----------------------------
+katakuzn:x:5516:5000:Katarzyna Kuzniar,PAWjw,209,:/home/students/k/katakuzn:/bin/tcsh
+----------------------------
+----------------------------
+piotmis1:x:5517:5000:Piotr Misiuga,PAWjw,209,:/home/students/p/piotmis1:/bin/tcsh
+----------------------------
+----------------------------
+natamosk:x:5518:5000:Natalia Moskal,PAWjw,209,:/home/students/n/natamosk:/bin/tcsh
+----------------------------
+----------------------------
+jacemost:x:5519:5000:Jacek Mostowicz,PAWjw,209,:/home/students/j/jacemost:/bin/tcsh
+----------------------------
+----------------------------
+marimsci:x:5520:5000:Mariusz Mscichowski,PAWjw,209,:/home/students/m/marimsci:/bin/tcsh
+----------------------------
+----------------------------
+adamyzik:x:5521:5000:Ada Myzik,PAWjw,209,:/home/students/a/adamyzik:/bin/tcsh
+----------------------------
+----------------------------
+jaceonis:x:5522:5000:Jacek Oniszczuk,PAWjw,209,:/home/students/j/jaceonis:/bin/tcsh
+----------------------------
+----------------------------
+wojcscel:x:5523:5000:Wojciech Scelina,PAWjw,209,:/home/students/w/wojcscel:/bin/tcsh
+----------------------------
+----------------------------
+jakustaw:x:5524:5000:Jakub Stawarczyk,PAWjw,209,:/home/students/j/jakustaw:/bin/tcsh
+----------------------------
+----------------------------
+arkastry:x:5525:5000:Arkadiusz Stryjakiewicz,PAWjw,209,:/home/students/a/arkastry:/bin/tcsh
+----------------------------
+----------------------------
+patrstry:x:5526:5000:Patryk Stryjakiewicz,PAWjw,209,:/home/students/p/patrstry:/bin/tcsh
+----------------------------
+----------------------------
+tomaswie:x:5527:5000:Tomasz Swietoniowski,PAWjw,209,:/home/students/t/tomaswie:/bin/tcsh
+----------------------------
+----------------------------
+jaceszaj:x:5528:5000:Jacek Szajner,PAWjw,209,:/home/students/j/jaceszaj:/bin/tcsh
+----------------------------
+----------------------------
+slawszla:x:5529:5000:Slawomir Szlanta,PAWjw,209,:/home/students/s/slawszla:/bin/tcsh
+----------------------------
+----------------------------
+katatata:x:5530:5000:Katarzyna Tatar,PAWjw,209,:/home/students/k/katatata:/bin/tcsh
+----------------------------
+----------------------------
+krzytata:x:5531:5000:Krzysztof Tatar,PAWjw,209,:/home/students/k/krzytata:/bin/tcsh
+----------------------------
+----------------------------
+grzetluc:x:5532:5000:Grzegorz Tluczek,PAWjw,209,:/home/students/g/grzetluc:/bin/tcsh
+----------------------------
+----------------------------
+piotwalc:x:5533:5000:Piotr Walczak,PAWjw,209,:/home/students/p/piotwalc:/bin/tcsh
+----------------------------
+----------------------------
+slawwozn:x:5534:5000:Slawomir Wozniak,PAWjw,209,:/home/students/s/slawwozn:/bin/tcsh
+----------------------------
+----------------------------
+tomawozn:x:5535:5000:Tomasz Wozniak,PAWjw,209,:/home/students/t/tomawozn:/bin/tcsh
+----------------------------
+----------------------------
+lukazlot:x:5536:5000:Lukasz Zlotnik,PAWjw,209,:/home/students/l/lukazlot:/bin/tcsh
+----------------------------
+----------------------------
+samydavi:x:5537:5000:Samy Davidson,ERA,226,:/home/students/s/samydavi:/bin/tcsh
+----------------------------
+----------------------------
+joseanto:x:5538:5000:Jose Antonio,ERA,226,:/home/students/j/joseanto:/bin/tcsh
+----------------------------
+----------------------------
+krzymiel:x:5539:5000:Krzysztof Mielczarek,IS3,214,:/home/students/k/krzymiel:/bin/tcsh
+----------------------------
+----------------------------
+szymkuch:x:5540:5000:Szymon Kuchnia,IS1,230,:/home/students/s/szymkuch:/bin/tcsh
+----------------------------
+----------------------------
+annawite:x:5541:5000:Anna Witek,IS3,235,:/home/students/a/annawite:/bin/tcsh
+----------------------------
+----------------------------
+ilonbaka:x:5542:5000:Ilona Baka,IO,252,:/home/students/i/ilonbaka:/bin/tcsh
+----------------------------
+----------------------------
+lukabaru:x:5543:5000:Lukasz Barus,IO,252,:/home/students/l/lukabaru:/bin/tcsh
+----------------------------
+----------------------------
+macibedn:x:5544:5000:Maciej Bednarczyk,IO,252,:/home/students/m/macibedn:/bin/tcsh
+----------------------------
+----------------------------
+beatbier:x:5545:5000:Beata Biernacka,IO,252,:/home/students/b/beatbier:/bin/tcsh
+----------------------------
+----------------------------
+grzecary:x:5546:5000:Grzegorz Caryk,IO,252,:/home/students/g/grzecary:/bin/tcsh
+----------------------------
+----------------------------
+michcham:x:5547:5000:Michal Chamiolo,IO,252,:/home/students/m/michcham:/bin/tcsh
+----------------------------
+----------------------------
+maciczek:x:5548:5000:Maciej Czekaj,IO,252,:/home/students/m/maciczek:/bin/tcsh
+----------------------------
+----------------------------
+artudob1:x:5549:5000:Artur Dobosiewicz,IO,252,:/home/students/a/artudob1:/bin/tcsh
+----------------------------
+----------------------------
+bartgrab:x:5550:5000:Bartlomiej Grabowski,IO,252,:/home/students/b/bartgrab:/bin/tcsh
+----------------------------
+----------------------------
+elighejd:x:5551:5000:Eligiusz Hejduk,IO,252,:/home/students/e/elighejd:/bin/tcsh
+----------------------------
+----------------------------
+bartjani:x:5552:5000:Bartosz Janik,IO,252,:/home/students/b/bartjani:/bin/tcsh
+----------------------------
+----------------------------
+jarokawa:x:5553:5000:Jaroslaw Kawa,IO,252,:/home/students/j/jarokawa:/bin/tcsh
+----------------------------
+----------------------------
+rafalkot:x:5554:5000:Rafal Kot,IO,252,:/home/students/r/rafalkot:/bin/tcsh
+----------------------------
+----------------------------
+barbkraw:x:5555:5000:Barbara Krawczyk,IO,252,:/home/students/b/barbkraw:/bin/tcsh
+----------------------------
+----------------------------
+adrilach:x:5556:5000:Adrian Lachowski,IO,252,:/home/students/a/adrilach:/bin/tcsh
+----------------------------
+----------------------------
+michluka:x:5557:5000:Michal Lukasik,IO,252,:/home/students/m/michluka:/bin/tcsh
+----------------------------
+----------------------------
+damimaci:x:5558:5000:Damian Maciag,IO,252,:/home/students/d/damimaci:/bin/tcsh
+----------------------------
+----------------------------
+malgmaro:x:5559:5000:Malgorzata Marondel,IO,252,:/home/students/m/malgmaro:/bin/tcsh
+----------------------------
+----------------------------
+grzemart:x:5560:5000:Grzegorz Martuszewski,IO,252,:/home/students/g/grzemart:/bin/tcsh
+----------------------------
+----------------------------
+piotmart:x:5561:5000:Piotr Martuszewski,IO,252,:/home/students/p/piotmart:/bin/tcsh
+----------------------------
+----------------------------
+darimazu:x:5562:5000:Dariusz Mazur,IO,252,:/home/students/d/darimazu:/bin/tcsh
+----------------------------
+----------------------------
+janmedal:x:5563:5000:Jan Medala,IO,252,:/home/students/j/janmedal:/bin/tcsh
+----------------------------
+----------------------------
+michmika:x:5564:5000:Michal Mika,IO,252,:/home/students/m/michmika:/bin/tcsh
+----------------------------
+----------------------------
+lukamile:x:5565:5000:Lukasz Milewicz,IO,252,:/home/students/l/lukamile:/bin/tcsh
+----------------------------
+----------------------------
+artunowo:x:5566:5000:Artur Noworyta,IO,252,:/home/students/a/artunowo:/bin/tcsh
+----------------------------
+----------------------------
+piotorli:x:5567:5000:Piotr Orlik,IO,252,:/home/students/p/piotorli:/bin/tcsh
+----------------------------
+----------------------------
+sebaorsk:x:5568:5000:Sebastian Orski,IO,252,:/home/students/s/sebaorsk:/bin/tcsh
+----------------------------
+----------------------------
+martpask:x:5569:5000:Marta Pasko,IO,252,:/home/students/m/martpask:/bin/tcsh
+----------------------------
+----------------------------
+agatpatr:x:5570:5000:Agata Patron,IO,252,:/home/students/a/agatpatr:/bin/tcsh
+----------------------------
+----------------------------
+maripiet:x:5571:5000:Maria Pietruszka,IO,252,:/home/students/m/maripiet:/bin/tcsh
+----------------------------
+----------------------------
+domipope:x:5572:5000:Dominik Popek,IO,252,:/home/students/d/domipope:/bin/tcsh
+----------------------------
+----------------------------
+doropore:x:5573:5000:Dorota Poreba,IO,252,:/home/students/d/doropore:/bin/tcsh
+----------------------------
+----------------------------
+matepoty:x:5574:5000:Mateusz Potyrala,IO,252,:/home/students/m/matepoty:/bin/tcsh
+----------------------------
+----------------------------
+dagmpund:x:5575:5000:Dagmara Pundyk,IO,252,:/home/students/d/dagmpund:/bin/tcsh
+----------------------------
+----------------------------
+andrrota:x:5576:5000:Andrzej Rotarski,IO,252,:/home/students/a/andrrota:/bin/tcsh
+----------------------------
+----------------------------
+magdsoba:x:5577:5000:Magdalena Sobala,IO,252,:/home/students/m/magdsoba:/bin/tcsh
+----------------------------
+----------------------------
+joansple:x:5578:5000:Joanna Spletsteser,IO,252,:/home/students/j/joansple:/bin/tcsh
+----------------------------
+----------------------------
+piotszcz:x:5579:5000:Piotr Szczerba,IO,252,:/home/students/p/piotszcz:/bin/tcsh
+----------------------------
+----------------------------
+tomateki:x:5580:5000:Tomasz Tekieli,IO,252,:/home/students/t/tomateki:/bin/tcsh
+----------------------------
+----------------------------
+emiltroc:x:5581:5000:Emil Troczynski,IO,252,:/home/students/e/emiltroc:/bin/tcsh
+----------------------------
+----------------------------
+marctymc:x:5582:5000:Marcin Tymczak,IO,252,:/home/students/m/marctymc:/bin/tcsh
+----------------------------
+----------------------------
+tomaurba:x:5583:5000:Tomasz Urban,IO,252,:/home/students/t/tomaurba:/bin/tcsh
+----------------------------
+----------------------------
+stanzaja:x:5584:5000:Stanislaw Zajac,IO,252,:/home/students/s/stanzaja:/bin/tcsh
+----------------------------
+----------------------------
+katazmud:x:5585:5000:Katarzyna Zmuda,IO,252,:/home/students/k/katazmud:/bin/tcsh
+----------------------------
+----------------------------
+waldznam:x:5586:5000:Waldemar Znamirowski,IO,252,:/home/students/w/waldznam:/bin/tcsh
+----------------------------
+----------------------------
+magdzupn:x:5587:5000:Magdalena Zupnik,IO,252,:/home/students/m/magdzupn:/bin/tcsh
+----------------------------
+----------------------------
+marczyba:x:5588:5000:Marcin Zybala,IO,252,:/home/students/m/marczyba:/bin/tcsh
+----------------------------
+----------------------------
+magdzych:x:5589:5000:Magdalena Zychowicz,IO,252,:/home/students/m/magdzych:/bin/tcsh
+----------------------------
+----------------------------
+karokrol:x:5590:5000:Karol Krol,PAWjw,255,:/home/students/k/karokrol:/bin/tcsh
+----------------------------

@@ -1,0 +1,1 @@
+sed -n -e '3,5p' /etc/passwd

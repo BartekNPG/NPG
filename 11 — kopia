@@ -1,0 +1,2 @@
+sed i.bak -e '/www/ s/root/jakukuba/g' /etc/aliases
+sed i.bak -e '/www/! s/root/jakukuba/g' /etc/aliases

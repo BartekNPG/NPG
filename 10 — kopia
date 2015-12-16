@@ -1,0 +1,1 @@
+sed -i.bak -e 's/root/jakukuba/g' /etc/aliases

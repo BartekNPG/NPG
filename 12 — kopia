@@ -1,0 +1,1 @@
+sed -i.bak -e '/^[:blank:]*$/d' plik

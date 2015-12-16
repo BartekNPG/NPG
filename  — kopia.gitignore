@@ -1,0 +1,4 @@
+/test.txt
+*.exe
+*.js
+*tmp*.*
